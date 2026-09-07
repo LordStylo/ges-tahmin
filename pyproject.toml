@@ -1,0 +1,9 @@
+[project]
+name = "ges-uretim-tahmin-motoru"
+version = "0.1.0"
+description = "Yerel, izlenebilir GES saatlik üretim tahmin motoru"
+requires-python = ">=3.11"
+
+[tool.unittest]
+start-directory = "tests"
+

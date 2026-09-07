@@ -1,0 +1,25 @@
+{
+  "defaults": {
+    "temperature_coefficient_per_c": -0.004,
+    "noct_c": 45.0,
+    "first_year_degradation_pct": 2.0,
+    "annual_degradation_pct": 0.55,
+    "inverter_nominal_efficiency": 0.98,
+    "losses": {
+      "soiling_pct": 2.0,
+      "reflection_pct": 2.0,
+      "mismatch_pct": 2.0,
+      "dc_cable_pct": 1.5,
+      "shading_pct": 0.0,
+      "ac_cable_pct": 1.0,
+      "transformer_pct": 1.0,
+      "availability_pct": 0.0,
+      "snow_pct": 0.0
+    }
+  },
+  "sites": [
+    {"name": "Saha 1", "latitude_deg": 37.075739, "longitude_deg": 36.804529, "panel_count": 91327, "panel_power_wp": 550, "ac_capacity_kw": 39700, "tilt_deg": 20, "azimuth_compass_deg": 180, "age_years": 2},
+    {"name": "Saha 2", "latitude_deg": 40.862088, "longitude_deg": 33.094728, "panel_count": 17854, "panel_power_wp": 550, "ac_capacity_kw": 7500, "tilt_deg": 25, "azimuth_compass_deg": 180, "age_years": 3},
+    {"name": "Saha 3", "latitude_deg": 38.275934, "longitude_deg": 39.741377, "panel_count": 7123, "panel_power_wp": 550, "ac_capacity_kw": 3500, "tilt_deg": 20, "azimuth_compass_deg": 180, "age_years": 1}
+  ]
+}

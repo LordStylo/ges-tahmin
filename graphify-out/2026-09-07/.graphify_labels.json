@@ -1,0 +1,23 @@
+{
+  "0": "Saatlik Üretim Tahmini",
+  "1": "app.py",
+  "2": "What You Must Do When Invoked",
+  "3": "SiteConfig",
+  "4": "Repository",
+  "5": "OpenMeteoClient",
+  "6": "create_app",
+  "7": "ForecastEngineAcceptanceTests",
+  "8": "graphify reference: extra exports and benchmark",
+  "9": "GES Saatlik Üretim Tahmin Motoru",
+  "10": "ValidationError",
+  "11": "graphify reference: query, path, explain",
+  "12": "graphify reference: add a URL and watch a folder",
+  "13": "graphify reference: commit hook and native CLAUDE.md integration",
+  "14": "graphify reference: incremental update and cluster-only",
+  "15": "graphify reference: GitHub clone and cross-repo merge",
+  "16": "graphify reference: transcribe video and audio",
+  "17": "PDF gereksinim izlenebilirliği",
+  "18": "extraction-spec.md",
+  "19": "ges-uretim-tahmin-motoru",
+  "20": "tests/__init__.py"
+}
