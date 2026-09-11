@@ -1,0 +1,21 @@
+{
+  "reviewed_by": "visual normal-size review",
+  "directions": [
+    {"direction":"000","expected":"up","verdict":"pass","observed":"frontal face with eyes aimed upward","reason":"Cardinal anchor is unmistakable."},
+    {"direction":"022.5","expected":"up-right","verdict":"warning","observed":"slight right turn with upward gaze","reason":"Intermediate diagonal is readable in ordered-loop context."},
+    {"direction":"045","expected":"up-right","verdict":"pass","observed":"right-facing face with upward gaze","reason":"Both horizontal and vertical axes are visible."},
+    {"direction":"067.5","expected":"up-right","verdict":"pass","observed":"strong right-facing turn with upward component","reason":"Advances coherently toward the right cardinal."},
+    {"direction":"090","expected":"right","verdict":"pass","observed":"clear screen-right profile","reason":"Cardinal landmark is unmistakable."},
+    {"direction":"112.5","expected":"down-right","verdict":"pass","observed":"right-facing profile with downward component","reason":"Both axes are visible."},
+    {"direction":"135","expected":"down-right","verdict":"pass","observed":"right turn with downward gaze","reason":"Diagonal reads correctly."},
+    {"direction":"157.5","expected":"down-right","verdict":"warning","observed":"near-front transition toward down","reason":"Intermediate is accepted from loop continuity and cardinal anchors."},
+    {"direction":"180","expected":"down","verdict":"pass","observed":"back/down cardinal pose","reason":"Cardinal anchor is unmistakable."},
+    {"direction":"202.5","expected":"down-left","verdict":"pass","observed":"leftward turn with downward component","reason":"Both axes are visible."},
+    {"direction":"225","expected":"down-left","verdict":"pass","observed":"left turn with downward gaze","reason":"Diagonal reads correctly."},
+    {"direction":"247.5","expected":"down-left","verdict":"pass","observed":"strong left-facing turn with downward component","reason":"Advances coherently toward the left cardinal."},
+    {"direction":"270","expected":"left","verdict":"pass","observed":"clear screen-left profile","reason":"Cardinal landmark is unmistakable."},
+    {"direction":"292.5","expected":"up-left","verdict":"pass","observed":"left-facing turn with upward component","reason":"Both axes are visible."},
+    {"direction":"315","expected":"up-left","verdict":"pass","observed":"left turn with upward gaze","reason":"Diagonal reads correctly."},
+    {"direction":"337.5","expected":"up-left","verdict":"warning","observed":"near-front transition toward up","reason":"Intermediate is accepted from loop continuity and cardinal anchors."}
+  ]
+}

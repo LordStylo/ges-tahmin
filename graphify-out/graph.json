@@ -4,6 +4,19 @@
   "graph": {},
   "nodes": [
     {
+      "id": "src_ges_forecast_analytics_accuracyreport",
+      "label": "AccuracyReport",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "ValidationError",
+      "file_type": "code",
+      "norm_label": "accuracyreport",
+      "source_file": "src/ges_forecast/analytics.py",
+      "source_location": "L11"
+    },
+    {
       "id": "src_ges_forecast_domain_lossfactors",
       "label": "LossFactors",
       "_callable": true,
@@ -35,12 +48,25 @@
       "_callable": true,
       "_callable_class": true,
       "_origin": "ast",
-      "community": 21,
-      "community_name": "calculate_metrics",
+      "community": 3,
+      "community_name": "SiteConfig",
       "file_type": "code",
       "norm_label": "comparisonmetrics",
       "source_file": "src/ges_forecast/comparison.py",
       "source_location": "L17"
+    },
+    {
+      "id": "src_ges_forecast_domain_forecasthour",
+      "label": "ForecastHour",
+      "_callable": true,
+      "_callable_class": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "SiteConfig",
+      "file_type": "code",
+      "norm_label": "forecasthour",
+      "source_file": "src/ges_forecast/domain.py",
+      "source_location": "L145"
     },
     {
       "id": "src_ges_forecast_domain_mounttype",
@@ -121,19 +147,6 @@
       "source_location": "L13"
     },
     {
-      "id": "src_ges_forecast_domain_forecasthour",
-      "label": "ForecastHour",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Repository",
-      "file_type": "code",
-      "norm_label": "forecasthour",
-      "source_file": "src/ges_forecast/domain.py",
-      "source_location": "L145"
-    },
-    {
       "id": "src_ges_forecast_storage_repository",
       "label": "Repository",
       "_callable": true,
@@ -186,19 +199,6 @@
       "source_location": "L8"
     },
     {
-      "id": "src_ges_forecast_analytics_accuracyreport",
-      "label": "AccuracyReport",
-      "_callable": true,
-      "_callable_class": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "create_app",
-      "file_type": "code",
-      "norm_label": "accuracyreport",
-      "source_file": "src/ges_forecast/analytics.py",
-      "source_location": "L11"
-    },
-    {
       "id": "tests_test_model_forecastengineacceptancetests",
       "label": "ForecastEngineAcceptanceTests",
       "_callable": true,
@@ -212,6 +212,30 @@
       "source_location": "L26"
     },
     {
+      "id": "src_ges_forecast_app_acceptance_empty_view",
+      "label": "_acceptance_empty_view()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "app.py",
+      "file_type": "code",
+      "norm_label": "_acceptance_empty_view()",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L289"
+    },
+    {
+      "id": "src_ges_forecast_app_acceptance_view",
+      "label": "_acceptance_view()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "app.py",
+      "file_type": "code",
+      "norm_label": "_acceptance_view()",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L293"
+    },
+    {
       "id": "src_ges_forecast_app_actuals_form",
       "label": "_actuals_form()",
       "_callable": true,
@@ -221,7 +245,7 @@
       "file_type": "code",
       "norm_label": "_actuals_form()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L347"
+      "source_location": "L558"
     },
     {
       "id": "src_ges_forecast_app_analysis_view",
@@ -233,7 +257,19 @@
       "file_type": "code",
       "norm_label": "_analysis_view()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L378"
+      "source_location": "L589"
+    },
+    {
+      "id": "src_ges_forecast_app_clipping_callout",
+      "label": "_clipping_callout()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "app.py",
+      "file_type": "code",
+      "norm_label": "_clipping_callout()",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L519"
     },
     {
       "id": "src_ges_forecast_app_comparison_curve_day",
@@ -245,7 +281,31 @@
       "file_type": "code",
       "norm_label": "_comparison_curve_day()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L245"
+      "source_location": "L362"
+    },
+    {
+      "id": "src_ges_forecast_app_comparison_daily_rows",
+      "label": "_comparison_daily_rows()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "app.py",
+      "file_type": "code",
+      "norm_label": "_comparison_daily_rows()",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L409"
+    },
+    {
+      "id": "src_ges_forecast_app_comparison_day_picker",
+      "label": "_comparison_day_picker()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "app.py",
+      "file_type": "code",
+      "norm_label": "_comparison_day_picker()",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L371"
     },
     {
       "id": "src_ges_forecast_app_comparison_form",
@@ -257,7 +317,31 @@
       "file_type": "code",
       "norm_label": "_comparison_form()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L181"
+      "source_location": "L207"
+    },
+    {
+      "id": "src_ges_forecast_app_comparison_hourly_rows",
+      "label": "_comparison_hourly_rows()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "app.py",
+      "file_type": "code",
+      "norm_label": "_comparison_hourly_rows()",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L393"
+    },
+    {
+      "id": "src_ges_forecast_app_comparison_selected_daily_rows",
+      "label": "_comparison_selected_daily_rows()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "app.py",
+      "file_type": "code",
+      "norm_label": "_comparison_selected_daily_rows()",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L380"
     },
     {
       "id": "src_ges_forecast_app_comparison_svg_chart",
@@ -269,7 +353,7 @@
       "file_type": "code",
       "norm_label": "_comparison_svg_chart()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L254"
+      "source_location": "L423"
     },
     {
       "id": "src_ges_forecast_app_comparison_view",
@@ -281,7 +365,7 @@
       "file_type": "code",
       "norm_label": "_comparison_view()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L223"
+      "source_location": "L249"
     },
     {
       "id": "src_ges_forecast_app_daily_summary",
@@ -293,7 +377,19 @@
       "file_type": "code",
       "norm_label": "_daily_summary()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L313"
+      "source_location": "L500"
+    },
+    {
+      "id": "src_ges_forecast_app_day_picker",
+      "label": "_day_picker()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "app.py",
+      "file_type": "code",
+      "norm_label": "_day_picker()",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L511"
     },
     {
       "id": "src_ges_forecast_app_export",
@@ -305,7 +401,7 @@
       "file_type": "code",
       "norm_label": "_export()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L431"
+      "source_location": "L642"
     },
     {
       "id": "src_ges_forecast_app_forecast_form",
@@ -317,7 +413,7 @@
       "file_type": "code",
       "norm_label": "_forecast_form()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L117"
+      "source_location": "L143"
     },
     {
       "id": "src_ges_forecast_app_forecast_result",
@@ -329,7 +425,7 @@
       "file_type": "code",
       "norm_label": "_forecast_result()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L283"
+      "source_location": "L458"
     },
     {
       "id": "src_ges_forecast_app_format",
@@ -341,7 +437,7 @@
       "file_type": "code",
       "norm_label": "_format()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L464"
+      "source_location": "L690"
     },
     {
       "id": "src_ges_forecast_app_format_history_timestamp",
@@ -353,7 +449,7 @@
       "file_type": "code",
       "norm_label": "_format_history_timestamp()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L374"
+      "source_location": "L585"
     },
     {
       "id": "src_ges_forecast_app_history_view",
@@ -365,7 +461,7 @@
       "file_type": "code",
       "norm_label": "_history_view()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L353"
+      "source_location": "L564"
     },
     {
       "id": "src_ges_forecast_app_html",
@@ -377,7 +473,7 @@
       "file_type": "code",
       "norm_label": "_html()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L472"
+      "source_location": "L708"
     },
     {
       "id": "src_ges_forecast_app_input",
@@ -389,7 +485,7 @@
       "file_type": "code",
       "norm_label": "_input()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L277"
+      "source_location": "L452"
     },
     {
       "id": "src_ges_forecast_app_json",
@@ -401,7 +497,19 @@
       "file_type": "code",
       "norm_label": "_json()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L478"
+      "source_location": "L714"
+    },
+    {
+      "id": "src_ges_forecast_app_latest_test_site_forecasts",
+      "label": "_latest_test_site_forecasts()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "app.py",
+      "file_type": "code",
+      "norm_label": "_latest_test_site_forecasts()",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L278"
     },
     {
       "id": "src_ges_forecast_app_layout",
@@ -413,7 +521,7 @@
       "file_type": "code",
       "norm_label": "_layout()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L468"
+      "source_location": "L694"
     },
     {
       "id": "src_ges_forecast_app_monthly_clipping_rows",
@@ -425,7 +533,7 @@
       "file_type": "code",
       "norm_label": "_monthly_clipping_rows()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L269"
+      "source_location": "L444"
     },
     {
       "id": "src_ges_forecast_app_parse_form",
@@ -437,7 +545,7 @@
       "file_type": "code",
       "norm_label": "_parse_form()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L404"
+      "source_location": "L615"
     },
     {
       "id": "src_ges_forecast_app_redirect",
@@ -449,7 +557,7 @@
       "file_type": "code",
       "norm_label": "_redirect()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L485"
+      "source_location": "L721"
     },
     {
       "id": "src_ges_forecast_app_required_forecast",
@@ -461,7 +569,7 @@
       "file_type": "code",
       "norm_label": "_required_forecast()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L423"
+      "source_location": "L634"
     },
     {
       "id": "src_ges_forecast_app_scenario_summary",
@@ -473,7 +581,7 @@
       "file_type": "code",
       "norm_label": "_scenario_summary()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L335"
+      "source_location": "L546"
     },
     {
       "id": "src_ges_forecast_app_scenario_summary_from_records",
@@ -485,7 +593,7 @@
       "file_type": "code",
       "norm_label": "_scenario_summary_from_records()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L341"
+      "source_location": "L552"
     },
     {
       "id": "src_ges_forecast_app_svg_chart",
@@ -497,7 +605,7 @@
       "file_type": "code",
       "norm_label": "_svg_chart()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L324"
+      "source_location": "L529"
     },
     {
       "id": "src_ges_forecast_app_test_site_card",
@@ -509,7 +617,7 @@
       "file_type": "code",
       "norm_label": "_test_site_card()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L192"
+      "source_location": "L218"
     },
     {
       "id": "src_ges_forecast_exporters_to_csv",
@@ -536,6 +644,66 @@
       "source_location": "L33"
     },
     {
+      "id": "tests_test_comparison_testsitecomparisontests_test_application_brand_links_to_home",
+      "label": ".test_application_brand_links_to_home()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "app.py",
+      "file_type": "code",
+      "norm_label": ".test_application_brand_links_to_home()",
+      "source_file": "tests/test_comparison.py",
+      "source_location": "L57"
+    },
+    {
+      "id": "src_ges_forecast_analytics_evaluate_forecast",
+      "label": "evaluate_forecast()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "ValidationError",
+      "file_type": "code",
+      "norm_label": "evaluate_forecast()",
+      "source_file": "src/ges_forecast/analytics.py",
+      "source_location": "L22"
+    },
+    {
+      "id": "src_ges_forecast_analytics_weather_group",
+      "label": "_weather_group()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "ValidationError",
+      "file_type": "code",
+      "norm_label": "_weather_group()",
+      "source_file": "src/ges_forecast/analytics.py",
+      "source_location": "L58"
+    },
+    {
+      "id": "src_ges_forecast_app_comparison_snapshot_export",
+      "label": "_comparison_snapshot_export()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "ValidationError",
+      "file_type": "code",
+      "norm_label": "_comparison_snapshot_export()",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L650"
+    },
+    {
+      "id": "src_ges_forecast_app_create_app",
+      "label": "create_app()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "ValidationError",
+      "file_type": "code",
+      "norm_label": "create_app()",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L30"
+    },
+    {
       "id": "src_ges_forecast_app_integer",
       "label": "_integer()",
       "_callable": true,
@@ -545,7 +713,7 @@
       "file_type": "code",
       "norm_label": "_integer()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L449"
+      "source_location": "L675"
     },
     {
       "id": "src_ges_forecast_app_number",
@@ -557,7 +725,7 @@
       "file_type": "code",
       "norm_label": "_number()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L439"
+      "source_location": "L665"
     },
     {
       "id": "src_ges_forecast_app_optional_number",
@@ -569,7 +737,7 @@
       "file_type": "code",
       "norm_label": "_optional_number()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L459"
+      "source_location": "L685"
     },
     {
       "id": "src_ges_forecast_app_parse_actual_csv",
@@ -581,7 +749,7 @@
       "file_type": "code",
       "norm_label": "_parse_actual_csv()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L410"
+      "source_location": "L621"
     },
     {
       "id": "src_ges_forecast_app_run_test_site_comparison",
@@ -593,7 +761,7 @@
       "file_type": "code",
       "norm_label": "_run_test_site_comparison()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L196"
+      "source_location": "L222"
     },
     {
       "id": "src_ges_forecast_app_site_from_form",
@@ -605,7 +773,7 @@
       "file_type": "code",
       "norm_label": "_site_from_form()",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L384"
+      "source_location": "L595"
     },
     {
       "id": "src_ges_forecast_domain_lossfactors_ac_multiplier",
@@ -680,12 +848,156 @@
       "source_location": "L139"
     },
     {
+      "id": "src_ges_forecast_main_main",
+      "label": "main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "ValidationError",
+      "file_type": "code",
+      "norm_label": "main()",
+      "source_file": "src/ges_forecast/__main__.py",
+      "source_location": "L10"
+    },
+    {
+      "id": "tools_build_comparison_workbook_addlinechart",
+      "label": "addLineChart()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "addlinechart()",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L81"
+    },
+    {
+      "id": "tools_build_comparison_workbook_dailymatrix",
+      "label": "dailyMatrix()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "dailymatrix()",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L94"
+    },
+    {
+      "id": "tools_build_comparison_workbook_dayof",
+      "label": "dayOf()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "dayof()",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L42"
+    },
+    {
+      "id": "tools_build_comparison_workbook_dccapacity",
+      "label": "dcCapacity()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "dccapacity()",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L45"
+    },
+    {
+      "id": "tools_build_comparison_workbook_displaydate",
+      "label": "displayDate()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "displaydate()",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L44"
+    },
+    {
+      "id": "tools_build_comparison_workbook_header",
+      "label": "header()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "header()",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L54"
+    },
+    {
+      "id": "tools_build_comparison_workbook_hourof",
+      "label": "hourOf()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "hourof()",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L43"
+    },
+    {
+      "id": "tools_build_comparison_workbook_number",
+      "label": "number()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "number()",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L41"
+    },
+    {
+      "id": "tools_build_comparison_workbook_styledata",
+      "label": "styleData()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "styledata()",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L75"
+    },
+    {
+      "id": "tools_build_comparison_workbook_title",
+      "label": "title()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "title()",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L66"
+    },
+    {
+      "id": "tools_build_comparison_workbook_totals",
+      "label": "totals()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "totals()",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L46"
+    },
+    {
       "id": "src_ges_forecast_comparison_calculate_metrics",
       "label": "calculate_metrics()",
       "_callable": true,
       "_origin": "ast",
-      "community": 21,
-      "community_name": "calculate_metrics",
+      "community": 3,
+      "community_name": "SiteConfig",
       "file_type": "code",
       "norm_label": "calculate_metrics()",
       "source_file": "src/ges_forecast/comparison.py",
@@ -696,8 +1008,8 @@
       "label": "_timestamp_text()",
       "_callable": true,
       "_origin": "ast",
-      "community": 21,
-      "community_name": "calculate_metrics",
+      "community": 3,
+      "community_name": "SiteConfig",
       "file_type": "code",
       "norm_label": "_timestamp_text()",
       "source_file": "src/ges_forecast/comparison.py",
@@ -708,8 +1020,8 @@
       "label": "_value()",
       "_callable": true,
       "_origin": "ast",
-      "community": 21,
-      "community_name": "calculate_metrics",
+      "community": 3,
+      "community_name": "SiteConfig",
       "file_type": "code",
       "norm_label": "_value()",
       "source_file": "src/ges_forecast/comparison.py",
@@ -812,6 +1124,18 @@
       "source_location": "L93"
     },
     {
+      "id": "src_ges_forecast_storage_parse_utc",
+      "label": "_parse_utc()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "SiteConfig",
+      "file_type": "code",
+      "norm_label": "_parse_utc()",
+      "source_file": "src/ges_forecast/storage.py",
+      "source_location": "L196"
+    },
+    {
       "id": "tests_test_comparison_testsitecomparisontests_test_appendix_sites_have_distinct_dc_ac_ratios_above_one",
       "label": ".test_appendix_sites_have_distinct_dc_ac_ratios_above_one()",
       "_callable": true,
@@ -870,18 +1194,6 @@
       "norm_label": "_forecast_hour_to_dict()",
       "source_file": "src/ges_forecast/storage.py",
       "source_location": "L200"
-    },
-    {
-      "id": "src_ges_forecast_storage_parse_utc",
-      "label": "_parse_utc()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Repository",
-      "file_type": "code",
-      "norm_label": "_parse_utc()",
-      "source_file": "src/ges_forecast/storage.py",
-      "source_location": "L196"
     },
     {
       "id": "src_ges_forecast_storage_repository_cache_get",
@@ -1160,54 +1472,6 @@
       "source_location": "L9"
     },
     {
-      "id": "src_ges_forecast_analytics_evaluate_forecast",
-      "label": "evaluate_forecast()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "create_app",
-      "file_type": "code",
-      "norm_label": "evaluate_forecast()",
-      "source_file": "src/ges_forecast/analytics.py",
-      "source_location": "L22"
-    },
-    {
-      "id": "src_ges_forecast_analytics_weather_group",
-      "label": "_weather_group()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "create_app",
-      "file_type": "code",
-      "norm_label": "_weather_group()",
-      "source_file": "src/ges_forecast/analytics.py",
-      "source_location": "L58"
-    },
-    {
-      "id": "src_ges_forecast_app_create_app",
-      "label": "create_app()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "create_app",
-      "file_type": "code",
-      "norm_label": "create_app()",
-      "source_file": "src/ges_forecast/app.py",
-      "source_location": "L22"
-    },
-    {
-      "id": "src_ges_forecast_main_main",
-      "label": "main()",
-      "_callable": true,
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "create_app",
-      "file_type": "code",
-      "norm_label": "main()",
-      "source_file": "src/ges_forecast/__main__.py",
-      "source_location": "L10"
-    },
-    {
       "id": "tests_test_model_forecastengineacceptancetests_setup",
       "label": ".setUp()",
       "_callable": true,
@@ -1346,6 +1610,50 @@
       "norm_label": "any",
       "source_file": "",
       "source_location": ""
+    },
+    {
+      "id": "src_ges_forecast_analytics",
+      "label": "analytics.py",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "ValidationError",
+      "file_type": "code",
+      "norm_label": "analytics.py",
+      "source_file": "src/ges_forecast/analytics.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_ges_forecast_analytics_py_any",
+      "label": "Any",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "ValidationError",
+      "file_type": "code",
+      "norm_label": "any",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_ges_forecast_app_py_path",
+      "label": "Path",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "ValidationError",
+      "file_type": "code",
+      "norm_label": "path",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_ges_forecast_main",
+      "label": "__main__.py",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "ValidationError",
+      "file_type": "code",
+      "norm_label": "__main__.py",
+      "source_file": "src/ges_forecast/__main__.py",
+      "source_location": "L1"
     },
     {
       "id": "src_ges_forecast_domain_rationale_10",
@@ -2047,37 +2355,524 @@
       "source_location": "L1"
     },
     {
-      "id": "src_ges_forecast_comparison",
-      "label": "comparison.py",
+      "id": "docs_staj_raporu_proje_2_brif",
+      "label": "staj-raporu-proje-2-brif.md",
       "_origin": "ast",
       "community": 21,
-      "community_name": "calculate_metrics",
-      "file_type": "code",
-      "norm_label": "comparison.py",
-      "source_file": "src/ges_forecast/comparison.py",
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "staj-raporu-proje-2-brif.md",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
       "source_location": "L1"
     },
     {
-      "id": "src_ges_forecast_comparison_py_any",
-      "label": "Any",
+      "id": "docs_staj_raporu_proje_2_brif_di\u011fer_yapay_zek\u00e2ya_verilecek_haz\u0131r_istek",
+      "label": "Di\u011fer yapay zek\u00e2ya verilecek haz\u0131r istek",
       "_origin": "ast",
       "community": 21,
-      "community_name": "calculate_metrics",
-      "file_type": "code",
-      "norm_label": "any",
-      "source_file": "",
-      "source_location": ""
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "diger yapay zekaya verilecek haz\u0131r istek",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L149"
     },
     {
-      "id": "src_ges_forecast_comparison_rationale_28",
-      "label": "Bir saha i\u00e7in se\u00e7ili tahmin/do\u011frulama d\u00f6neminin kar\u015f\u0131la\u015ft\u0131rma metrikleri.",
+      "id": "docs_staj_raporu_proje_2_brif_do\u011frulanm\u0131\u015f_proje_kapsam\u0131",
+      "label": "Do\u011frulanm\u0131\u015f proje kapsam\u0131",
       "_origin": "ast",
       "community": 21,
-      "community_name": "calculate_metrics",
-      "file_type": "rationale",
-      "norm_label": "bir saha icin secili tahmin/dogrulama doneminin kars\u0131last\u0131rma metrikleri.",
-      "source_file": "src/ges_forecast/comparison.py",
-      "source_location": "L28"
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "dogrulanm\u0131s proje kapsam\u0131",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L11"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_ek_a_test_sahalar\u0131",
+      "label": "Ek A test sahalar\u0131",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "ek a test sahalar\u0131",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L25"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_elde_edilen_sonu\u00e7lar",
+      "label": "Elde edilen sonu\u00e7lar",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "elde edilen sonuclar",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L107"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_genel_de\u011ferlendirme_i\u00e7in_g\u00fcvenli_anlat\u0131m",
+      "label": "Genel de\u011ferlendirme i\u00e7in g\u00fcvenli anlat\u0131m",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "genel degerlendirme icin guvenli anlat\u0131m",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L118"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_i_\u015fyerindeki_\u00f6zel_durumlar_ve_aksakl\u0131klar_hakk\u0131nda_yaz\u0131m_kural\u0131",
+      "label": "\u0130\u015fyerindeki \u00f6zel durumlar ve aksakl\u0131klar hakk\u0131nda yaz\u0131m kural\u0131",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "isyerindeki ozel durumlar ve aksakl\u0131klar hakk\u0131nda yaz\u0131m kural\u0131",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L133"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_kar\u015f\u0131la\u015f\u0131lan_teknik_durumlar_ve_\u00e7\u00f6z\u00fcm_yakla\u015f\u0131m\u0131",
+      "label": "Kar\u015f\u0131la\u015f\u0131lan teknik durumlar ve \u00e7\u00f6z\u00fcm yakla\u015f\u0131m\u0131",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "kars\u0131las\u0131lan teknik durumlar ve cozum yaklas\u0131m\u0131",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L122"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_kullan\u0131lan_geli\u015ftirme_yaz\u0131l\u0131m\u0131_ve_ara\u00e7lar\u0131",
+      "label": "Kullan\u0131lan geli\u015ftirme yaz\u0131l\u0131m\u0131 ve ara\u00e7lar\u0131",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "kullan\u0131lan gelistirme yaz\u0131l\u0131m\u0131 ve araclar\u0131",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L91"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_k\u0131sa_proje_\u00f6zeti",
+      "label": "K\u0131sa proje \u00f6zeti",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "k\u0131sa proje ozeti",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L5"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_soru_3_i\u00e7in_rapor_yaz\u0131m_girdisi",
+      "label": "SORU-3 i\u00e7in rapor yaz\u0131m girdisi",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "soru-3 icin rapor yaz\u0131m girdisi",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L54"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_soru_4_i\u00e7in_rapor_yaz\u0131m_girdisi",
+      "label": "SORU-4 i\u00e7in rapor yaz\u0131m girdisi",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "soru-4 icin rapor yaz\u0131m girdisi",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L116"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_staj_raporu_i\u00e7in_proje_2_brifi_ges_saatlik_\u00fcretim_tahmin_motoru",
+      "label": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "staj raporu icin proje 2 brifi: ges saatlik uretim tahmin motoru",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_uygulama_mimarisi_ve_\u00e7al\u0131\u015fma_ak\u0131\u015f\u0131",
+      "label": "Uygulama mimarisi ve \u00e7al\u0131\u015fma ak\u0131\u015f\u0131",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "uygulama mimarisi ve cal\u0131sma ak\u0131s\u0131",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L35"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_uygulama_y\u00f6ntemi",
+      "label": "Uygulama y\u00f6ntemi",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "uygulama yontemi",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L62"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_\u00e7al\u0131\u015fmadan_nas\u0131l_faydalan\u0131ld\u0131\u011f\u0131na_dair_rapor_c\u00fcmlesi_tasla\u011f\u0131",
+      "label": "\u00c7al\u0131\u015fmadan nas\u0131l faydalan\u0131ld\u0131\u011f\u0131na dair rapor c\u00fcmlesi tasla\u011f\u0131",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "cal\u0131smadan nas\u0131l faydalan\u0131ld\u0131g\u0131na dair rapor cumlesi taslag\u0131",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L143"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_\u00e7al\u0131\u015fman\u0131n_tan\u0131m\u0131_ve_amac\u0131",
+      "label": "\u00c7al\u0131\u015fman\u0131n tan\u0131m\u0131 ve amac\u0131",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "cal\u0131sman\u0131n tan\u0131m\u0131 ve amac\u0131",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L56"
+    },
+    {
+      "id": "docs_staj_raporu_proje_2_brif_\u00e7\u00f6z\u00fcmleme_ve_tasar\u0131m_a\u015famalar\u0131",
+      "label": "\u00c7\u00f6z\u00fcmleme ve tasar\u0131m a\u015famalar\u0131",
+      "_origin": "ast",
+      "community": 21,
+      "community_name": "Staj raporu i\u00e7in Proje 2 brifi: GES Saatlik \u00dcretim Tahmin Motoru",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "cozumleme ve tasar\u0131m asamalar\u0131",
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L82"
+    },
+    {
+      "id": "tools_build_comparison_workbook",
+      "label": "build_comparison_workbook.mjs",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "build_comparison_workbook.mjs",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L1"
+    },
+    {
+      "id": "tools_build_comparison_workbook_actual",
+      "label": "actual",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "actual",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L170"
+    },
+    {
+      "id": "tools_build_comparison_workbook_actualheaders",
+      "label": "actualHeaders",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "actualheaders",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L173"
+    },
+    {
+      "id": "tools_build_comparison_workbook_actualhours",
+      "label": "actualHours",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "actualhours",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L178"
+    },
+    {
+      "id": "tools_build_comparison_workbook_actualrows",
+      "label": "actualRows",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "actualrows",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L179"
+    },
+    {
+      "id": "tools_build_comparison_workbook_alldays",
+      "label": "allDays",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "alldays",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L127"
+    },
+    {
+      "id": "tools_build_comparison_workbook_colors",
+      "label": "colors",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "colors",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L34"
+    },
+    {
+      "id": "tools_build_comparison_workbook_dailymaps",
+      "label": "dailyMaps",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "dailymaps",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L128"
+    },
+    {
+      "id": "tools_build_comparison_workbook_forecastids",
+      "label": "forecastIds",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "forecastids",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L7"
+    },
+    {
+      "id": "tools_build_comparison_workbook_hourly",
+      "label": "hourly",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "hourly",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L154"
+    },
+    {
+      "id": "tools_build_comparison_workbook_hourlyindex",
+      "label": "hourlyIndex",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "hourlyindex",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L159"
+    },
+    {
+      "id": "tools_build_comparison_workbook_hourlyrows",
+      "label": "hourlyRows",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "hourlyrows",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L161"
+    },
+    {
+      "id": "tools_build_comparison_workbook_identityrows",
+      "label": "identityRows",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "identityrows",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L139"
+    },
+    {
+      "id": "tools_build_comparison_workbook_overview",
+      "label": "overview",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "overview",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L108"
+    },
+    {
+      "id": "tools_build_comparison_workbook_overviewdailyrows",
+      "label": "overviewDailyRows",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "overviewdailyrows",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L131"
+    },
+    {
+      "id": "tools_build_comparison_workbook_readforecasts",
+      "label": "readForecasts",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "readforecasts",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L15"
+    },
+    {
+      "id": "tools_build_comparison_workbook_records",
+      "label": "records",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "records",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L31"
+    },
+    {
+      "id": "tools_build_comparison_workbook_summaryrows",
+      "label": "summaryRows",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "summaryrows",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L114"
+    },
+    {
+      "id": "tools_build_comparison_workbook_timestamps",
+      "label": "timestamps",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "timestamps",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L160"
+    },
+    {
+      "id": "tools_build_comparison_workbook_workbook",
+      "label": "workbook",
+      "_origin": "ast",
+      "community": 22,
+      "community_name": "build_comparison_workbook.mjs",
+      "file_type": "code",
+      "norm_label": "workbook",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L107"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_base_pet",
+      "label": "base-pet.md",
+      "_origin": "ast",
+      "community": 23,
+      "community_name": "base-pet.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "base-pet.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/base-pet.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_look_anchor_repairs_000",
+      "label": "000.md",
+      "_origin": "ast",
+      "community": 24,
+      "community_name": "000.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "000.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/look-anchor-repairs/000.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_look_anchor_repairs_090",
+      "label": "090.md",
+      "_origin": "ast",
+      "community": 25,
+      "community_name": "090.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "090.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/look-anchor-repairs/090.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_look_anchor_repairs_180",
+      "label": "180.md",
+      "_origin": "ast",
+      "community": 26,
+      "community_name": "180.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "180.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/look-anchor-repairs/180.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_look_anchor_repairs_270",
+      "label": "270.md",
+      "_origin": "ast",
+      "community": 27,
+      "community_name": "270.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "270.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/look-anchor-repairs/270.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_look_cardinals",
+      "label": "look-cardinals.md",
+      "_origin": "ast",
+      "community": 28,
+      "community_name": "look-cardinals.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "look-cardinals.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/look-cardinals.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_row_retries_failed",
+      "label": "row-retries/failed.md",
+      "_origin": "ast",
+      "community": 29,
+      "community_name": "row-retries/failed.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "row-retries/failed.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/row-retries/failed.md",
+      "source_location": "L1"
     },
     {
       "id": "datetime",
@@ -2087,6 +2882,28 @@
       "community_name": "SiteConfig",
       "file_type": "code",
       "norm_label": "datetime",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "src_ges_forecast_comparison",
+      "label": "comparison.py",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "SiteConfig",
+      "file_type": "code",
+      "norm_label": "comparison.py",
+      "source_file": "src/ges_forecast/comparison.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "src_ges_forecast_comparison_py_any",
+      "label": "Any",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "SiteConfig",
+      "file_type": "code",
+      "norm_label": "any",
       "source_file": "",
       "source_location": ""
     },
@@ -2146,6 +2963,17 @@
       "source_location": "L1"
     },
     {
+      "id": "src_ges_forecast_storage",
+      "label": "storage.py",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "SiteConfig",
+      "file_type": "code",
+      "norm_label": "storage.py",
+      "source_file": "src/ges_forecast/storage.py",
+      "source_location": "L1"
+    },
+    {
       "id": "strenum",
       "label": "StrEnum",
       "_origin": "ast",
@@ -2190,6 +3018,17 @@
       "source_location": "L1"
     },
     {
+      "id": "src_ges_forecast_comparison_rationale_28",
+      "label": "Bir saha i\u00e7in se\u00e7ili tahmin/do\u011frulama d\u00f6neminin kar\u015f\u0131la\u015ft\u0131rma metrikleri.",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "SiteConfig",
+      "file_type": "rationale",
+      "norm_label": "bir saha icin secili tahmin/dogrulama doneminin kars\u0131last\u0131rma metrikleri.",
+      "source_file": "src/ges_forecast/comparison.py",
+      "source_location": "L28"
+    },
+    {
       "id": "src_ges_forecast_init_rationale_1",
       "label": "GES Saatlik \u00dcretim Tahmin Motoru.",
       "_origin": "ast",
@@ -2212,6 +3051,126 @@
       "source_location": "L10"
     },
     {
+      "id": "hatch_runs_itachi_v2_prompts_row_retries_idle",
+      "label": "row-retries/idle.md",
+      "_origin": "ast",
+      "community": 30,
+      "community_name": "row-retries/idle.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "row-retries/idle.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/row-retries/idle.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_row_retries_jumping",
+      "label": "row-retries/jumping.md",
+      "_origin": "ast",
+      "community": 31,
+      "community_name": "row-retries/jumping.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "row-retries/jumping.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/row-retries/jumping.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_row_retries_look_row_10",
+      "label": "row-retries/look-row-10.md",
+      "_origin": "ast",
+      "community": 32,
+      "community_name": "row-retries/look-row-10.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "row-retries/look-row-10.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/row-retries/look-row-10.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_row_retries_look_row_9",
+      "label": "row-retries/look-row-9.md",
+      "_origin": "ast",
+      "community": 33,
+      "community_name": "row-retries/look-row-9.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "row-retries/look-row-9.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/row-retries/look-row-9.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_row_retries_review",
+      "label": "row-retries/review.md",
+      "_origin": "ast",
+      "community": 34,
+      "community_name": "row-retries/review.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "row-retries/review.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/row-retries/review.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_row_retries_running",
+      "label": "row-retries/running.md",
+      "_origin": "ast",
+      "community": 35,
+      "community_name": "row-retries/running.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "row-retries/running.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/row-retries/running.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_row_retries_running_left",
+      "label": "row-retries/running-left.md",
+      "_origin": "ast",
+      "community": 36,
+      "community_name": "row-retries/running-left.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "row-retries/running-left.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/row-retries/running-left.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_row_retries_running_right",
+      "label": "row-retries/running-right.md",
+      "_origin": "ast",
+      "community": 37,
+      "community_name": "row-retries/running-right.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "row-retries/running-right.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/row-retries/running-right.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_row_retries_waiting",
+      "label": "row-retries/waiting.md",
+      "_origin": "ast",
+      "community": 38,
+      "community_name": "row-retries/waiting.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "row-retries/waiting.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/row-retries/waiting.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_row_retries_waving",
+      "label": "row-retries/waving.md",
+      "_origin": "ast",
+      "community": 39,
+      "community_name": "row-retries/waving.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "row-retries/waving.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/row-retries/waving.md",
+      "source_location": "L1"
+    },
+    {
       "id": "connection",
       "label": "Connection",
       "_origin": "ast",
@@ -2221,17 +3180,6 @@
       "norm_label": "connection",
       "source_file": "",
       "source_location": ""
-    },
-    {
-      "id": "src_ges_forecast_storage",
-      "label": "storage.py",
-      "_origin": "ast",
-      "community": 4,
-      "community_name": "Repository",
-      "file_type": "code",
-      "norm_label": "storage.py",
-      "source_file": "src/ges_forecast/storage.py",
-      "source_location": "L1"
     },
     {
       "id": "src_ges_forecast_storage_py_any",
@@ -2276,6 +3224,126 @@
       "norm_label": "tahmin surumlerini asla ezmeden saklayan sqlite deposu.",
       "source_file": "src/ges_forecast/storage.py",
       "source_location": "L15"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_rows_failed",
+      "label": "rows/failed.md",
+      "_origin": "ast",
+      "community": 40,
+      "community_name": "rows/failed.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "rows/failed.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/rows/failed.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_rows_idle",
+      "label": "rows/idle.md",
+      "_origin": "ast",
+      "community": 41,
+      "community_name": "rows/idle.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "rows/idle.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/rows/idle.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_rows_jumping",
+      "label": "rows/jumping.md",
+      "_origin": "ast",
+      "community": 42,
+      "community_name": "rows/jumping.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "rows/jumping.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/rows/jumping.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_rows_look_row_10",
+      "label": "rows/look-row-10.md",
+      "_origin": "ast",
+      "community": 43,
+      "community_name": "rows/look-row-10.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "rows/look-row-10.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/rows/look-row-10.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_rows_look_row_9",
+      "label": "rows/look-row-9.md",
+      "_origin": "ast",
+      "community": 44,
+      "community_name": "rows/look-row-9.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "rows/look-row-9.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/rows/look-row-9.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_rows_review",
+      "label": "rows/review.md",
+      "_origin": "ast",
+      "community": 45,
+      "community_name": "rows/review.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "rows/review.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/rows/review.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_rows_running",
+      "label": "rows/running.md",
+      "_origin": "ast",
+      "community": 46,
+      "community_name": "rows/running.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "rows/running.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/rows/running.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_rows_running_left",
+      "label": "rows/running-left.md",
+      "_origin": "ast",
+      "community": 47,
+      "community_name": "rows/running-left.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "rows/running-left.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/rows/running-left.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_rows_running_right",
+      "label": "rows/running-right.md",
+      "_origin": "ast",
+      "community": 48,
+      "community_name": "rows/running-right.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "rows/running-right.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/rows/running-right.md",
+      "source_location": "L1"
+    },
+    {
+      "id": "hatch_runs_itachi_v2_prompts_rows_waiting",
+      "label": "rows/waiting.md",
+      "_origin": "ast",
+      "community": 49,
+      "community_name": "rows/waiting.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "rows/waiting.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/rows/waiting.md",
+      "source_location": "L1"
     },
     {
       "id": "src_ges_forecast_open_meteo_py_any",
@@ -2344,47 +3412,39 @@
       "source_location": "L52"
     },
     {
-      "id": "src_ges_forecast_analytics",
-      "label": "analytics.py",
+      "id": "hatch_runs_itachi_v2_prompts_rows_waving",
+      "label": "rows/waving.md",
       "_origin": "ast",
-      "community": 6,
-      "community_name": "create_app",
-      "file_type": "code",
-      "norm_label": "analytics.py",
-      "source_file": "src/ges_forecast/analytics.py",
+      "community": 50,
+      "community_name": "rows/waving.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "rows/waving.md",
+      "source_file": "hatch-runs/itachi-v2/prompts/rows/waving.md",
       "source_location": "L1"
     },
     {
-      "id": "src_ges_forecast_analytics_py_any",
-      "label": "Any",
+      "id": "hatch_runs_itachi_v2_qa_look_mechanics",
+      "label": "look-mechanics.md",
       "_origin": "ast",
       "community": 6,
-      "community_name": "create_app",
-      "file_type": "code",
-      "norm_label": "any",
-      "source_file": "",
-      "source_location": ""
+      "community_name": "look-mechanics.md",
+      "file_type": "document",
+      "node_kind": "page",
+      "norm_label": "look-mechanics.md",
+      "source_file": "hatch-runs/itachi-v2/qa/look-mechanics.md",
+      "source_location": "L1"
     },
     {
-      "id": "src_ges_forecast_app_py_path",
-      "label": "Path",
+      "id": "hatch_runs_itachi_v2_qa_look_mechanics_itachi_look_mechanics",
+      "label": "Itachi look mechanics",
       "_origin": "ast",
       "community": 6,
-      "community_name": "create_app",
-      "file_type": "code",
-      "norm_label": "path",
-      "source_file": "",
-      "source_location": ""
-    },
-    {
-      "id": "src_ges_forecast_main",
-      "label": "__main__.py",
-      "_origin": "ast",
-      "community": 6,
-      "community_name": "create_app",
-      "file_type": "code",
-      "norm_label": "__main__.py",
-      "source_file": "src/ges_forecast/__main__.py",
+      "community_name": "look-mechanics.md",
+      "file_type": "document",
+      "node_kind": "heading",
+      "norm_label": "itachi look mechanics",
+      "source_file": "hatch-runs/itachi-v2/qa/look-mechanics.md",
       "source_location": "L1"
     },
     {
@@ -2761,6 +3821,42 @@
       "weight": 1.0
     },
     {
+      "source": "src_ges_forecast_app_acceptance_view",
+      "target": "src_ges_forecast_comparison_calculate_metrics",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L298",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_acceptance_view",
+      "target": "src_ges_forecast_app_comparison_curve_day",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L309",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_acceptance_view",
+      "target": "src_ges_forecast_analytics_evaluate_forecast",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L324",
+      "weight": 1.0
+    },
+    {
       "source": "src_ges_forecast_app_comparison_form",
       "target": "src_ges_forecast_app_test_site_card",
       "relation": "calls",
@@ -2769,7 +3865,19 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L188",
+      "source_location": "L214",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_comparison_snapshot_export",
+      "target": "src_ges_forecast_domain_validationerror",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L652",
       "weight": 1.0
     },
     {
@@ -2781,7 +3889,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L228",
+      "source_location": "L254",
       "weight": 1.0
     },
     {
@@ -2793,7 +3901,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L234",
+      "source_location": "L261",
       "weight": 1.0
     },
     {
@@ -2805,7 +3913,55 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L235",
+      "source_location": "L262",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_comparison_view",
+      "target": "src_ges_forecast_app_comparison_daily_rows",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L263",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_comparison_view",
+      "target": "src_ges_forecast_app_comparison_selected_daily_rows",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L264",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_comparison_view",
+      "target": "src_ges_forecast_app_comparison_hourly_rows",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L265",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_comparison_view",
+      "target": "src_ges_forecast_app_comparison_day_picker",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L272",
       "weight": 1.0
     },
     {
@@ -2817,7 +3973,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L241",
+      "source_location": "L273",
       "weight": 1.0
     },
     {
@@ -2829,7 +3985,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L101",
+      "source_location": "L127",
       "weight": 1.0
     },
     {
@@ -2841,7 +3997,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L23",
+      "source_location": "L31",
       "weight": 1.0
     },
     {
@@ -2853,7 +4009,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L24",
+      "source_location": "L32",
       "weight": 1.0
     },
     {
@@ -2865,7 +4021,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L25",
+      "source_location": "L33",
       "weight": 1.0
     },
     {
@@ -2877,7 +4033,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L45",
+      "source_location": "L53",
       "weight": 1.0
     },
     {
@@ -2889,7 +4045,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L432",
+      "source_location": "L643",
       "weight": 1.0
     },
     {
@@ -2901,7 +4057,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L433",
+      "source_location": "L644",
       "weight": 1.0
     },
     {
@@ -2913,7 +4069,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L433",
+      "source_location": "L644",
       "weight": 1.0
     },
     {
@@ -2925,19 +4081,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L119",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ges_forecast_app_forecast_result",
-      "target": "src_ges_forecast_app_format",
-      "relation": "calls",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "context": "call",
-      "source_file": "src/ges_forecast/app.py",
-      "source_location": "L292",
+      "source_location": "L145",
       "weight": 1.0
     },
     {
@@ -2949,7 +4093,43 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L297",
+      "source_location": "L465",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_forecast_result",
+      "target": "src_ges_forecast_app_format",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L473",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_forecast_result",
+      "target": "src_ges_forecast_app_clipping_callout",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L493",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_forecast_result",
+      "target": "src_ges_forecast_app_day_picker",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L493",
       "weight": 1.0
     },
     {
@@ -2961,7 +4141,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L306",
+      "source_location": "L493",
       "weight": 1.0
     },
     {
@@ -2973,7 +4153,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L363",
+      "source_location": "L574",
       "weight": 1.0
     },
     {
@@ -2985,7 +4165,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L456",
+      "source_location": "L682",
       "weight": 1.0
     },
     {
@@ -2997,7 +4177,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L446",
+      "source_location": "L672",
       "weight": 1.0
     },
     {
@@ -3009,7 +4189,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L461",
+      "source_location": "L687",
       "weight": 1.0
     },
     {
@@ -3021,7 +4201,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L417",
+      "source_location": "L628",
       "weight": 1.0
     },
     {
@@ -3033,7 +4213,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L427",
+      "source_location": "L638",
       "weight": 1.0
     },
     {
@@ -3045,7 +4225,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L201",
+      "source_location": "L227",
       "weight": 1.0
     },
     {
@@ -3057,7 +4237,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L206",
+      "source_location": "L232",
       "weight": 1.0
     },
     {
@@ -3069,7 +4249,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L385",
+      "source_location": "L596",
       "weight": 1.0
     },
     {
@@ -3081,7 +4261,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L386",
+      "source_location": "L597",
       "weight": 1.0
     },
     {
@@ -3093,7 +4273,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L391",
+      "source_location": "L602",
       "weight": 1.0
     },
     {
@@ -3105,7 +4285,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L393",
+      "source_location": "L604",
       "weight": 1.0
     },
     {
@@ -3117,7 +4297,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L397",
+      "source_location": "L608",
       "weight": 1.0
     },
     {
@@ -3129,7 +4309,7 @@
       "confidence_score": 1.0,
       "context": "call",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L398",
+      "source_location": "L609",
       "weight": 1.0
     },
     {
@@ -3637,6 +4817,18 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_comparison_testsitecomparisontests_test_application_brand_links_to_home",
+      "target": "src_ges_forecast_app_layout",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_comparison.py",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_comparison_testsitecomparisontests_test_clipping_and_aging_metrics_follow_the_expected_order",
       "target": "src_ges_forecast_domain_weatherhour",
       "relation": "calls",
@@ -3706,6 +4898,18 @@
       "context": "call",
       "source_file": "tests/test_comparison.py",
       "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "tests_test_comparison_testsitecomparisontests_test_comparison_view_has_required_acceptance_outputs",
+      "target": "src_ges_forecast_app_acceptance_view",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tests/test_comparison.py",
+      "source_location": "L52",
       "weight": 1.0
     },
     {
@@ -3925,6 +5129,138 @@
       "weight": 1.0
     },
     {
+      "source": "tools_build_comparison_workbook_actualrows",
+      "target": "tools_build_comparison_workbook_number",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L182",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook_alldays",
+      "target": "tools_build_comparison_workbook_dayof",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook_dailymaps",
+      "target": "tools_build_comparison_workbook_dailymatrix",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook_dailymatrix",
+      "target": "tools_build_comparison_workbook_dayof",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook_hourlyrows",
+      "target": "tools_build_comparison_workbook_hourof",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook_hourlyrows",
+      "target": "tools_build_comparison_workbook_number",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook_overviewdailyrows",
+      "target": "tools_build_comparison_workbook_displaydate",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook_overviewdailyrows",
+      "target": "tools_build_comparison_workbook_number",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook_summaryrows",
+      "target": "tools_build_comparison_workbook_totals",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook_summaryrows",
+      "target": "tools_build_comparison_workbook_dccapacity",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook_summaryrows",
+      "target": "tools_build_comparison_workbook_number",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L117",
+      "weight": 1.0
+    },
+    {
       "source": "src_ges_forecast_init",
       "target": "src_ges_forecast_domain",
       "relation": "re_exports",
@@ -3961,6 +5297,18 @@
       "weight": 1.0
     },
     {
+      "source": "src_ges_forecast_app_acceptance_view",
+      "target": "src_ges_forecast_app_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L293",
+      "weight": 1.0
+    },
+    {
       "source": "src_ges_forecast_app_actuals_form",
       "target": "src_ges_forecast_app_py_any",
       "relation": "references",
@@ -3969,7 +5317,19 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L347",
+      "source_location": "L558",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_clipping_callout",
+      "target": "src_ges_forecast_app_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L519",
       "weight": 1.0
     },
     {
@@ -3981,7 +5341,55 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L245",
+      "source_location": "L362",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_comparison_daily_rows",
+      "target": "src_ges_forecast_app_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L409",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_comparison_day_picker",
+      "target": "src_ges_forecast_app_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L371",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_comparison_hourly_rows",
+      "target": "src_ges_forecast_app_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L393",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_comparison_selected_daily_rows",
+      "target": "src_ges_forecast_app_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L380",
       "weight": 1.0
     },
     {
@@ -3993,7 +5401,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L254",
+      "source_location": "L423",
       "weight": 1.0
     },
     {
@@ -4005,7 +5413,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L223",
+      "source_location": "L249",
       "weight": 1.0
     },
     {
@@ -4017,7 +5425,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L313",
+      "source_location": "L500",
       "weight": 1.0
     },
     {
@@ -4029,7 +5437,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L283",
+      "source_location": "L458",
       "weight": 1.0
     },
     {
@@ -4041,7 +5449,19 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L353",
+      "source_location": "L564",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app_latest_test_site_forecasts",
+      "target": "src_ges_forecast_app_py_any",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "generic_arg",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L278",
       "weight": 1.0
     },
     {
@@ -4053,7 +5473,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L269",
+      "source_location": "L444",
       "weight": 1.0
     },
     {
@@ -4065,7 +5485,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L404",
+      "source_location": "L615",
       "weight": 1.0
     },
     {
@@ -4077,7 +5497,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L423",
+      "source_location": "L634",
       "weight": 1.0
     },
     {
@@ -4089,7 +5509,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L335",
+      "source_location": "L546",
       "weight": 1.0
     },
     {
@@ -4101,7 +5521,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L341",
+      "source_location": "L552",
       "weight": 1.0
     },
     {
@@ -4113,7 +5533,7 @@
       "confidence_score": 1.0,
       "context": "generic_arg",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L324",
+      "source_location": "L529",
       "weight": 1.0
     },
     {
@@ -5037,7 +6457,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L378",
+      "source_location": "L589",
       "weight": 1.0
     },
     {
@@ -5049,7 +6469,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L22",
+      "source_location": "L30",
       "weight": 1.0
     },
     {
@@ -5061,7 +6481,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L464",
+      "source_location": "L690",
       "weight": 1.0
     },
     {
@@ -5073,7 +6493,7 @@
       "confidence_score": 1.0,
       "context": "parameter_type",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L478",
+      "source_location": "L714",
       "weight": 1.0
     },
     {
@@ -5900,6 +7320,204 @@
       "weight": 1.0
     },
     {
+      "source": "docs_staj_raporu_proje_2_brif",
+      "target": "docs_staj_raporu_proje_2_brif_staj_raporu_i\u00e7in_proje_2_brifi_ges_saatlik_\u00fcretim_tahmin_motoru",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_soru_3_i\u00e7in_rapor_yaz\u0131m_girdisi",
+      "target": "docs_staj_raporu_proje_2_brif_elde_edilen_sonu\u00e7lar",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_soru_3_i\u00e7in_rapor_yaz\u0131m_girdisi",
+      "target": "docs_staj_raporu_proje_2_brif_\u00e7al\u0131\u015fman\u0131n_tan\u0131m\u0131_ve_amac\u0131",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_soru_3_i\u00e7in_rapor_yaz\u0131m_girdisi",
+      "target": "docs_staj_raporu_proje_2_brif_uygulama_y\u00f6ntemi",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_soru_3_i\u00e7in_rapor_yaz\u0131m_girdisi",
+      "target": "docs_staj_raporu_proje_2_brif_\u00e7\u00f6z\u00fcmleme_ve_tasar\u0131m_a\u015famalar\u0131",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L82",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_soru_3_i\u00e7in_rapor_yaz\u0131m_girdisi",
+      "target": "docs_staj_raporu_proje_2_brif_kullan\u0131lan_geli\u015ftirme_yaz\u0131l\u0131m\u0131_ve_ara\u00e7lar\u0131",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L91",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_soru_4_i\u00e7in_rapor_yaz\u0131m_girdisi",
+      "target": "docs_staj_raporu_proje_2_brif_genel_de\u011ferlendirme_i\u00e7in_g\u00fcvenli_anlat\u0131m",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_soru_4_i\u00e7in_rapor_yaz\u0131m_girdisi",
+      "target": "docs_staj_raporu_proje_2_brif_kar\u015f\u0131la\u015f\u0131lan_teknik_durumlar_ve_\u00e7\u00f6z\u00fcm_yakla\u015f\u0131m\u0131",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_soru_4_i\u00e7in_rapor_yaz\u0131m_girdisi",
+      "target": "docs_staj_raporu_proje_2_brif_i_\u015fyerindeki_\u00f6zel_durumlar_ve_aksakl\u0131klar_hakk\u0131nda_yaz\u0131m_kural\u0131",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_soru_4_i\u00e7in_rapor_yaz\u0131m_girdisi",
+      "target": "docs_staj_raporu_proje_2_brif_\u00e7al\u0131\u015fmadan_nas\u0131l_faydalan\u0131ld\u0131\u011f\u0131na_dair_rapor_c\u00fcmlesi_tasla\u011f\u0131",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_staj_raporu_i\u00e7in_proje_2_brifi_ges_saatlik_\u00fcretim_tahmin_motoru",
+      "target": "docs_staj_raporu_proje_2_brif_do\u011frulanm\u0131\u015f_proje_kapsam\u0131",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_staj_raporu_i\u00e7in_proje_2_brifi_ges_saatlik_\u00fcretim_tahmin_motoru",
+      "target": "docs_staj_raporu_proje_2_brif_soru_4_i\u00e7in_rapor_yaz\u0131m_girdisi",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L116",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_staj_raporu_i\u00e7in_proje_2_brifi_ges_saatlik_\u00fcretim_tahmin_motoru",
+      "target": "docs_staj_raporu_proje_2_brif_di\u011fer_yapay_zek\u00e2ya_verilecek_haz\u0131r_istek",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L149",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_staj_raporu_i\u00e7in_proje_2_brifi_ges_saatlik_\u00fcretim_tahmin_motoru",
+      "target": "docs_staj_raporu_proje_2_brif_ek_a_test_sahalar\u0131",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_staj_raporu_i\u00e7in_proje_2_brifi_ges_saatlik_\u00fcretim_tahmin_motoru",
+      "target": "docs_staj_raporu_proje_2_brif_uygulama_mimarisi_ve_\u00e7al\u0131\u015fma_ak\u0131\u015f\u0131",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_staj_raporu_i\u00e7in_proje_2_brifi_ges_saatlik_\u00fcretim_tahmin_motoru",
+      "target": "docs_staj_raporu_proje_2_brif_k\u0131sa_proje_\u00f6zeti",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "docs_staj_raporu_proje_2_brif_staj_raporu_i\u00e7in_proje_2_brifi_ges_saatlik_\u00fcretim_tahmin_motoru",
+      "target": "docs_staj_raporu_proje_2_brif_soru_3_i\u00e7in_rapor_yaz\u0131m_girdisi",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "docs/staj-raporu-proje-2-brif.md",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "hatch_runs_itachi_v2_qa_look_mechanics",
+      "target": "hatch_runs_itachi_v2_qa_look_mechanics_itachi_look_mechanics",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "hatch-runs/itachi-v2/qa/look-mechanics.md",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
       "source": "readme",
       "target": "readme_ges_saatlik_\u00fcretim_tahmin_motoru",
       "relation": "contains",
@@ -6017,7 +7635,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L117",
+      "source_location": "L143",
       "weight": 1.0
     },
     {
@@ -6028,7 +7646,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L181",
+      "source_location": "L207",
       "weight": 1.0
     },
     {
@@ -6039,7 +7657,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L192",
+      "source_location": "L218",
       "weight": 1.0
     },
     {
@@ -6050,18 +7668,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L196",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ges_forecast_app",
-      "target": "src_ges_forecast_app_create_app",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/ges_forecast/app.py",
-      "source_location": "L22",
+      "source_location": "L222",
       "weight": 1.0
     },
     {
@@ -6072,7 +7679,51 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L223",
+      "source_location": "L249",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app",
+      "target": "src_ges_forecast_app_latest_test_site_forecasts",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L278",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app",
+      "target": "src_ges_forecast_app_acceptance_empty_view",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L289",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app",
+      "target": "src_ges_forecast_app_acceptance_view",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L293",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app",
+      "target": "src_ges_forecast_app_create_app",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L30",
       "weight": 1.0
     },
     {
@@ -6083,7 +7734,51 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L245",
+      "source_location": "L362",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app",
+      "target": "src_ges_forecast_app_comparison_day_picker",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L371",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app",
+      "target": "src_ges_forecast_app_comparison_selected_daily_rows",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L380",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app",
+      "target": "src_ges_forecast_app_comparison_hourly_rows",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L393",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app",
+      "target": "src_ges_forecast_app_comparison_daily_rows",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L409",
       "weight": 1.0
     },
     {
@@ -6094,7 +7789,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L254",
+      "source_location": "L423",
       "weight": 1.0
     },
     {
@@ -6105,7 +7800,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L269",
+      "source_location": "L444",
       "weight": 1.0
     },
     {
@@ -6116,7 +7811,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L277",
+      "source_location": "L452",
       "weight": 1.0
     },
     {
@@ -6127,7 +7822,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L283",
+      "source_location": "L458",
       "weight": 1.0
     },
     {
@@ -6138,7 +7833,29 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L313",
+      "source_location": "L500",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app",
+      "target": "src_ges_forecast_app_day_picker",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L511",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app",
+      "target": "src_ges_forecast_app_clipping_callout",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L519",
       "weight": 1.0
     },
     {
@@ -6149,7 +7866,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L324",
+      "source_location": "L529",
       "weight": 1.0
     },
     {
@@ -6160,7 +7877,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L335",
+      "source_location": "L546",
       "weight": 1.0
     },
     {
@@ -6171,7 +7888,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L341",
+      "source_location": "L552",
       "weight": 1.0
     },
     {
@@ -6182,7 +7899,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L347",
+      "source_location": "L558",
       "weight": 1.0
     },
     {
@@ -6193,7 +7910,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L353",
+      "source_location": "L564",
       "weight": 1.0
     },
     {
@@ -6204,7 +7921,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L374",
+      "source_location": "L585",
       "weight": 1.0
     },
     {
@@ -6215,7 +7932,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L378",
+      "source_location": "L589",
       "weight": 1.0
     },
     {
@@ -6226,7 +7943,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L384",
+      "source_location": "L595",
       "weight": 1.0
     },
     {
@@ -6237,7 +7954,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L404",
+      "source_location": "L615",
       "weight": 1.0
     },
     {
@@ -6248,7 +7965,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L410",
+      "source_location": "L621",
       "weight": 1.0
     },
     {
@@ -6259,7 +7976,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L423",
+      "source_location": "L634",
       "weight": 1.0
     },
     {
@@ -6270,7 +7987,18 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L431",
+      "source_location": "L642",
+      "weight": 1.0
+    },
+    {
+      "source": "src_ges_forecast_app",
+      "target": "src_ges_forecast_app_comparison_snapshot_export",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L650",
       "weight": 1.0
     },
     {
@@ -6281,7 +8009,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L439",
+      "source_location": "L665",
       "weight": 1.0
     },
     {
@@ -6292,7 +8020,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L449",
+      "source_location": "L675",
       "weight": 1.0
     },
     {
@@ -6303,7 +8031,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L459",
+      "source_location": "L685",
       "weight": 1.0
     },
     {
@@ -6314,18 +8042,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L464",
-      "weight": 1.0
-    },
-    {
-      "source": "src_ges_forecast_app",
-      "target": "src_ges_forecast_app_layout",
-      "relation": "contains",
-      "_origin": "ast",
-      "confidence": "EXTRACTED",
-      "confidence_score": 1.0,
-      "source_file": "src/ges_forecast/app.py",
-      "source_location": "L468",
+      "source_location": "L690",
       "weight": 1.0
     },
     {
@@ -6336,7 +8053,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L472",
+      "source_location": "L708",
       "weight": 1.0
     },
     {
@@ -6347,7 +8064,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L478",
+      "source_location": "L714",
       "weight": 1.0
     },
     {
@@ -6358,7 +8075,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L485",
+      "source_location": "L721",
       "weight": 1.0
     },
     {
@@ -6689,6 +8406,336 @@
       "confidence_score": 1.0,
       "source_file": "tests/test_storage.py",
       "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_workbook",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_overview",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L108",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_summaryrows",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_alldays",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L127",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_dailymaps",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L128",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_overviewdailyrows",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L131",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_identityrows",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L139",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_readforecasts",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_hourly",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_hourlyindex",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L159",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_timestamps",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L160",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_hourlyrows",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L161",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_actual",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L170",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_actualheaders",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L173",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_actualhours",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L178",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_actualrows",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L179",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_records",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_colors",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_number",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_dayof",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_hourof",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_displaydate",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_dccapacity",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_totals",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_header",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_title",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_forecastids",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_styledata",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_addlinechart",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "tools_build_comparison_workbook",
+      "target": "tools_build_comparison_workbook_dailymatrix",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tools/build_comparison_workbook.mjs",
+      "source_location": "L94",
       "weight": 1.0
     },
     {
@@ -7077,6 +9124,17 @@
       "weight": 1.0
     },
     {
+      "source": "tests_test_comparison_testsitecomparisontests",
+      "target": "tests_test_comparison_testsitecomparisontests_test_application_brand_links_to_home",
+      "relation": "method",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tests/test_comparison.py",
+      "source_location": "L57",
+      "weight": 1.0
+    },
+    {
       "source": "tests_test_model_forecastengineacceptancetests",
       "target": "tests_test_model_forecastengineacceptancetests_setup",
       "relation": "method",
@@ -7286,6 +9344,18 @@
       "weight": 1.0
     },
     {
+      "source": "src_ges_forecast_app",
+      "target": "src_ges_forecast_app_layout",
+      "relation": "indirect_call",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "context": "assignment",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L698",
+      "weight": 1.0
+    },
+    {
       "source": "src_ges_forecast_analytics_evaluate_forecast",
       "target": "valueerror",
       "relation": "calls",
@@ -7382,6 +9452,18 @@
       "weight": 0.8
     },
     {
+      "source": "src_ges_forecast_app_acceptance_view",
+      "target": "src_ges_forecast_storage_repository",
+      "relation": "uses",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "context": "parameter_type",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L293",
+      "weight": 0.8
+    },
+    {
       "source": "src_ges_forecast_app_export",
       "target": "src_ges_forecast_storage_repository",
       "relation": "uses",
@@ -7390,7 +9472,19 @@
       "confidence_score": 0.95,
       "context": "parameter_type",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L431",
+      "source_location": "L642",
+      "weight": 0.8
+    },
+    {
+      "source": "src_ges_forecast_app_latest_test_site_forecasts",
+      "target": "src_ges_forecast_storage_repository",
+      "relation": "uses",
+      "_origin": "ast",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "context": "parameter_type",
+      "source_file": "src/ges_forecast/app.py",
+      "source_location": "L278",
       "weight": 0.8
     },
     {
@@ -7402,7 +9496,7 @@
       "confidence_score": 0.95,
       "context": "parameter_type",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L423",
+      "source_location": "L634",
       "weight": 0.8
     },
     {
@@ -7414,7 +9508,7 @@
       "confidence_score": 0.95,
       "context": "parameter_type",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L197",
+      "source_location": "L223",
       "weight": 0.8
     },
     {
@@ -7426,7 +9520,7 @@
       "confidence_score": 0.95,
       "context": "parameter_type",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L197",
+      "source_location": "L223",
       "weight": 0.8
     },
     {
@@ -7438,7 +9532,7 @@
       "confidence_score": 0.95,
       "context": "parameter_type",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L197",
+      "source_location": "L223",
       "weight": 0.8
     },
     {
@@ -7450,7 +9544,7 @@
       "confidence_score": 0.95,
       "context": "parameter_type",
       "source_file": "src/ges_forecast/app.py",
-      "source_location": "L192",
+      "source_location": "L218",
       "weight": 0.8
     },
     {
@@ -7819,5 +9913,6 @@
       "weight": 1.0
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "d0967a0775562bcac284554acaf4030eaf9e2e47"
 }

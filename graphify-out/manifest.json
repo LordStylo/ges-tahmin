@@ -1,8 +1,8 @@
 {
   ".codex/hooks.json": {
-    "mtime": 1788765719.2333572,
-    "seen": 1788766852.8355608,
-    "ast_hash": "5ebef3dd159986e465ab65e4014107ec",
+    "mtime": 1788780378.2974224,
+    "seen": 1788780710.3612454,
+    "ast_hash": "606b69c9bf51f673e3cdd0aada22bd55",
     "semantic_hash": ""
   },
   "config/sites.example.json": {
@@ -36,9 +36,9 @@
     "semantic_hash": ""
   },
   "src/ges_forecast/app.py": {
-    "mtime": 1788769414.8925269,
-    "seen": 1788769606.2767992,
-    "ast_hash": "6f33014b882559a7bb33619dcacfda8c",
+    "mtime": 1788791381.9083593,
+    "seen": 1788791446.8681066,
+    "ast_hash": "71cd7545859bf5660eef32912c4ba082",
     "semantic_hash": ""
   },
   "src/ges_forecast/domain.py": {
@@ -180,9 +180,891 @@
     "semantic_hash": ""
   },
   "tests/test_comparison.py": {
-    "mtime": 1788769481.0528173,
-    "seen": 1788769606.2767992,
-    "ast_hash": "25f56d94a12e98ef49db0230fb5b89bb",
+    "mtime": 1788791343.3409853,
+    "seen": 1788791446.8681183,
+    "ast_hash": "034de36404d17c93b7525cc4f391d80b",
+    "semantic_hash": ""
+  },
+  "docs/staj-raporu-proje-2-brif.md": {
+    "mtime": 1788773395.3976214,
+    "seen": 1788779244.816097,
+    "ast_hash": "5b9e1cc4f817e21cc70280590b7acc96",
+    "semantic_hash": ""
+  },
+  "tools/build_comparison_workbook.mjs": {
+    "mtime": 1788780676.062448,
+    "seen": 1788780710.361279,
+    "ast_hash": "53e942b0ad7e814dfb2f5f262146b26f",
+    "semantic_hash": ""
+  },
+  "outputs/uc-saha-karsilastirma-20260907/Ger\u00e7ekle\u015fen_07.09.png": {
+    "mtime": 1788780695.0052395,
+    "seen": 1788780710.3613002,
+    "ast_hash": "d6d2f8d2b43d6b03319f157a89292080",
+    "semantic_hash": ""
+  },
+  "outputs/uc-saha-karsilastirma-20260907/Kar\u015f\u0131la\u015ft\u0131rma_\u00d6zeti.png": {
+    "mtime": 1788780693.4088316,
+    "seen": 1788780710.361302,
+    "ast_hash": "4bda2eee64d4c78ff57af6cf787eac1c",
+    "semantic_hash": ""
+  },
+  "outputs/uc-saha-karsilastirma-20260907/Saatlik_Kar\u015f\u0131la\u015ft\u0131rma.png": {
+    "mtime": 1788780694.760764,
+    "seen": 1788780710.3613038,
+    "ast_hash": "2d9e3484c573d85e2ba9e497229055c1",
+    "semantic_hash": ""
+  },
+  "outputs/uc-saha-karsilastirma-20260907/Saha_1.png": {
+    "mtime": 1788780696.6148872,
+    "seen": 1788780710.3613048,
+    "ast_hash": "dfaf91f332feb30a7d8fb0e3df8ac9cd",
+    "semantic_hash": ""
+  },
+  "outputs/uc-saha-karsilastirma-20260907/Saha_2.png": {
+    "mtime": 1788780698.1812725,
+    "seen": 1788780710.361306,
+    "ast_hash": "d80176d9143660825fc3872642df6508",
+    "semantic_hash": ""
+  },
+  "outputs/uc-saha-karsilastirma-20260907/Saha_3.png": {
+    "mtime": 1788780699.7637918,
+    "seen": 1788780710.3613067,
+    "ast_hash": "ecb4afdcd9eca0430a899483a449691c",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/imagegen-jobs.json": {
+    "mtime": 1788791287.0409827,
+    "seen": 1788791446.8680947,
+    "ast_hash": "b056e7a99f285af1f0f52211ecc25db2",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/pet_request.json": {
+    "mtime": 1788791287.0137706,
+    "seen": 1788791446.8680966,
+    "ast_hash": "1796138889effd03421aaef99ff384b1",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/validation-standard.json": {
+    "mtime": 1788791313.8149912,
+    "seen": 1788791446.868098,
+    "ast_hash": "ed4d44d8d33e37d9f37d2ba4fc89e5ff",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/base-pet.md": {
+    "mtime": 1788791287.0137706,
+    "seen": 1788791446.8681438,
+    "ast_hash": "7a21b9309a9ad5866f32e1d9aa2ec4b9",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/look-anchor-repairs/000.md": {
+    "mtime": 1788791287.0360157,
+    "seen": 1788791446.868146,
+    "ast_hash": "51146a044531d640556b492f3d8967a6",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/look-anchor-repairs/090.md": {
+    "mtime": 1788791287.0370545,
+    "seen": 1788791446.8681471,
+    "ast_hash": "ac8042110fcca02da25e219bd1c0333c",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/look-anchor-repairs/180.md": {
+    "mtime": 1788791287.0370545,
+    "seen": 1788791446.8681486,
+    "ast_hash": "9a2cb7080261f3a378ebefc97b0ee574",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/look-anchor-repairs/270.md": {
+    "mtime": 1788791287.038224,
+    "seen": 1788791446.8681495,
+    "ast_hash": "cfe505193efd93caa6e6ff5779b0a9d6",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/look-cardinals.md": {
+    "mtime": 1788791287.0346265,
+    "seen": 1788791446.8681507,
+    "ast_hash": "f1ee16f5731f25aec4f3dad550046d76",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/row-retries/failed.md": {
+    "mtime": 1788791287.024127,
+    "seen": 1788791446.868152,
+    "ast_hash": "61fdf9b435ade0c384fec7f66b2fbebd",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/row-retries/idle.md": {
+    "mtime": 1788791287.0159216,
+    "seen": 1788791446.8681529,
+    "ast_hash": "88efaed75b66e6b5fd16e982efe56b1a",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/row-retries/jumping.md": {
+    "mtime": 1788791287.0231297,
+    "seen": 1788791446.868154,
+    "ast_hash": "94a86bb997d1204a84697a67640f846d",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/row-retries/look-row-10.md": {
+    "mtime": 1788791287.033609,
+    "seen": 1788791446.8681555,
+    "ast_hash": "bbcf4d38a9e163ba06808782eaa5d8d5",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/row-retries/look-row-9.md": {
+    "mtime": 1788791287.0292635,
+    "seen": 1788791446.8681562,
+    "ast_hash": "5eb2514232d91209863d5141d61e0216",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/row-retries/review.md": {
+    "mtime": 1788791287.0292635,
+    "seen": 1788791446.8681571,
+    "ast_hash": "d035f7029a9e441a13783e36c80a056b",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/row-retries/running-left.md": {
+    "mtime": 1788791287.0182736,
+    "seen": 1788791446.868158,
+    "ast_hash": "93a12088cd3fa40996d65d9ac8634e37",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/row-retries/running-right.md": {
+    "mtime": 1788791287.0172055,
+    "seen": 1788791446.8681593,
+    "ast_hash": "d5b34701de432b5ad4f3fc9e09c306e8",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/row-retries/running.md": {
+    "mtime": 1788791287.027249,
+    "seen": 1788791446.8681602,
+    "ast_hash": "8dda1341f731d7285441c59df0440e6e",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/row-retries/waiting.md": {
+    "mtime": 1788791287.0251243,
+    "seen": 1788791446.8681612,
+    "ast_hash": "29c80cb19beeaa690ad029c44c191e0f",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/row-retries/waving.md": {
+    "mtime": 1788791287.0208552,
+    "seen": 1788791446.8681624,
+    "ast_hash": "fd99cdeae6264d6316962b63512b1974",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/rows/failed.md": {
+    "mtime": 1788791287.0231297,
+    "seen": 1788791446.8681633,
+    "ast_hash": "6db15b5d13d7bf18395297880a988f4a",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/rows/idle.md": {
+    "mtime": 1788791287.014818,
+    "seen": 1788791446.8681643,
+    "ast_hash": "688fb24921c0221e47c544bba85405ba",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/rows/jumping.md": {
+    "mtime": 1788791287.0218759,
+    "seen": 1788791446.8681655,
+    "ast_hash": "62be918451461aafe2be32eb92bc55bb",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/rows/look-row-10.md": {
+    "mtime": 1788791287.0292635,
+    "seen": 1788791446.8681664,
+    "ast_hash": "0d5c0bda1a2ee468e87ae5ef77655161",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/rows/look-row-9.md": {
+    "mtime": 1788791287.0292635,
+    "seen": 1788791446.8681676,
+    "ast_hash": "1bbac6666885d58879406e54321cc0bd",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/rows/review.md": {
+    "mtime": 1788791287.0292635,
+    "seen": 1788791446.8681686,
+    "ast_hash": "27cfcb28a4a46f80deae371c7f8a2849",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/rows/running-left.md": {
+    "mtime": 1788791287.0182736,
+    "seen": 1788791446.86817,
+    "ast_hash": "a20617a2f21b48df619b82efcd73f0b0",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/rows/running-right.md": {
+    "mtime": 1788791287.0159216,
+    "seen": 1788791446.868171,
+    "ast_hash": "d58e7d8e5fd63ff0226488cb774e8353",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/rows/running.md": {
+    "mtime": 1788791287.026884,
+    "seen": 1788791446.868172,
+    "ast_hash": "05e0e3f12a7dbc5ddf6cbc2b7deb99b3",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/rows/waiting.md": {
+    "mtime": 1788791287.0251243,
+    "seen": 1788791446.8681731,
+    "ast_hash": "0f15177cc46473cc9c585b3538847d3f",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/prompts/rows/waving.md": {
+    "mtime": 1788791287.0197153,
+    "seen": 1788791446.868174,
+    "ast_hash": "fd1af9ca104a0f2bf1d181b5d060127a",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/generation-notes.txt": {
+    "mtime": 1788791431.8237138,
+    "seen": 1788791446.868175,
+    "ast_hash": "da04caddc3002001e80f38893ed5c941",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/look-mechanics.md": {
+    "mtime": 1788791352.2979722,
+    "seen": 1788791446.868176,
+    "ast_hash": "28e0220f3748ca52aea1f48cba6d427c",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/decoded/look-cardinals.png": {
+    "mtime": 1788791422.293967,
+    "seen": 1788791446.8681784,
+    "ast_hash": "08c7b4ef0bae8274ddbf6fa80d770c0c",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/final/spritesheet.webp": {
+    "mtime": 1788791214.879908,
+    "seen": 1788791446.8681798,
+    "ast_hash": "7673985ce3ae7b6be03967190f564fc1",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/contact-sheet.png": {
+    "mtime": 1788791366.1918573,
+    "seen": 1788791446.8681808,
+    "ast_hash": "0517e98804698b870055ed5e97440e87",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/canonical-base.png": {
+    "mtime": 1788791366.6275933,
+    "seen": 1788791446.8681817,
+    "ast_hash": "5a04b5d11419479e8f2b885dcdffbb86",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/layout-guides/failed.png": {
+    "mtime": 1788791286.9801552,
+    "seen": 1788791446.868183,
+    "ast_hash": "c58ac538adb27c6501441a6d73be5560",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/layout-guides/idle.png": {
+    "mtime": 1788791286.957067,
+    "seen": 1788791446.8681839,
+    "ast_hash": "32684415c17512ac5b30849196b679a0",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/layout-guides/jumping.png": {
+    "mtime": 1788791286.9746206,
+    "seen": 1788791446.8681848,
+    "ast_hash": "4e372653fa408a58c5e2784f5f371f10",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/layout-guides/look-cardinals.png": {
+    "mtime": 1788791287.0068665,
+    "seen": 1788791446.8681858,
+    "ast_hash": "39bef3ffd0ad2fea93f43446899b1ffa",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/layout-guides/look-row-10.png": {
+    "mtime": 1788791287.002865,
+    "seen": 1788791446.868187,
+    "ast_hash": "c58ac538adb27c6501441a6d73be5560",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/layout-guides/look-row-9.png": {
+    "mtime": 1788791286.9978056,
+    "seen": 1788791446.868188,
+    "ast_hash": "c58ac538adb27c6501441a6d73be5560",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/layout-guides/review.png": {
+    "mtime": 1788791286.9935489,
+    "seen": 1788791446.8681889,
+    "ast_hash": "32684415c17512ac5b30849196b679a0",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/layout-guides/running-left.png": {
+    "mtime": 1788791286.9680183,
+    "seen": 1788791446.8681898,
+    "ast_hash": "c58ac538adb27c6501441a6d73be5560",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/layout-guides/running-right.png": {
+    "mtime": 1788791286.9622943,
+    "seen": 1788791446.868191,
+    "ast_hash": "c58ac538adb27c6501441a6d73be5560",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/layout-guides/running.png": {
+    "mtime": 1788791286.9854374,
+    "seen": 1788791446.868192,
+    "ast_hash": "32684415c17512ac5b30849196b679a0",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/layout-guides/waiting.png": {
+    "mtime": 1788791286.9835024,
+    "seen": 1788791446.8681939,
+    "ast_hash": "32684415c17512ac5b30849196b679a0",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/layout-guides/waving.png": {
+    "mtime": 1788791286.9710095,
+    "seen": 1788791446.8681948,
+    "ast_hash": "39bef3ffd0ad2fea93f43446899b1ffa",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/references/reference-01.webp": {
+    "mtime": 1788791214.879908,
+    "seen": 1788791446.8681958,
+    "ast_hash": "7673985ce3ae7b6be03967190f564fc1",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/final/spritesheet-extended.json": {
+    "mtime": 1788791648.8846297,
+    "seen": 1789126777.9926243,
+    "ast_hash": "611b7b393794df8e989a9c22584cdd36",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/final/validation-extended.json": {
+    "mtime": 1788791725.49135,
+    "seen": 1789126777.9926267,
+    "ast_hash": "cda8bc904888aa28dbac558f70dabdc4",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/cardinal-extraction.json": {
+    "mtime": 1788791456.6483402,
+    "seen": 1789126777.992633,
+    "ast_hash": "6814e89f59271bf00b5233539bed0666",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/chroma-despill-extended.json": {
+    "mtime": 1788791714.5560386,
+    "seen": 1789126777.992634,
+    "ast_hash": "dae1b2bc7362c9dd6d63a799ebf58ef8",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/direction-blind-answer-key.json": {
+    "mtime": 1788791796.7696872,
+    "seen": 1789126777.9926355,
+    "ast_hash": "bb4d8791983c3f15f67d8897c7ddb484",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/direction-semantics.json": {
+    "mtime": 1788791829.9081132,
+    "seen": 1789126777.9926364,
+    "ast_hash": "518a5d9b6733d56bdbdc27c0ae9b7dbb",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/look-continuity.json": {
+    "mtime": 1788791758.9156559,
+    "seen": 1789126777.9926376,
+    "ast_hash": "b111ab647c9bdbbbe112ba675f26cb62",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/look-row-9-registration.json": {
+    "mtime": 1788791536.8950264,
+    "seen": 1789126777.992639,
+    "ast_hash": "ca455ce1a9b8ea76c427e1db37986258",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/review.json": {
+    "mtime": 1788791829.911477,
+    "seen": 1789126777.99264,
+    "ast_hash": "20ae1100cd6c92c919a61f2fe0fb5833",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/validation-packaged.json": {
+    "mtime": 1788791859.1632257,
+    "seen": 1789126777.9926412,
+    "ast_hash": "df827d87abf7e701a020a3fcc85a01df",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/decoded/look-anchors-approved.png": {
+    "mtime": 1788791456.8725448,
+    "seen": 1789126777.9927406,
+    "ast_hash": "e8d52d7d345c17b80cd5196ed47058b3",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/decoded/look-anchors/000.png": {
+    "mtime": 1788791456.6195061,
+    "seen": 1789126777.9927418,
+    "ast_hash": "28e1a765fe1cbbd147ba2acde9e5577a",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/decoded/look-anchors/090.png": {
+    "mtime": 1788791456.631208,
+    "seen": 1789126777.9927433,
+    "ast_hash": "fc39113247da223167bebee52c8174f7",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/decoded/look-anchors/180.png": {
+    "mtime": 1788791456.6426497,
+    "seen": 1789126777.9927442,
+    "ast_hash": "42b72b57945613061f9af72509e62991",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/decoded/look-anchors/270.png": {
+    "mtime": 1788791456.6483402,
+    "seen": 1789126777.9927454,
+    "ast_hash": "f1314dfb9d94d9390592d943c755f1bf",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/decoded/look-row-10.png": {
+    "mtime": 1788791607.6372192,
+    "seen": 1789126777.992748,
+    "ast_hash": "0ea739b7f5bb10b91748ca9d78bf8187",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/decoded/look-row-9-registered.png": {
+    "mtime": 1788791536.8928869,
+    "seen": 1789126777.9927492,
+    "ast_hash": "2499f8d6bc4b89ec53bec2d52f51ed1b",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/decoded/look-row-9.png": {
+    "mtime": 1788791508.4361932,
+    "seen": 1789126777.9927504,
+    "ast_hash": "555f2236002f91b8f1c077ee6f3ae22b",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/final/spritesheet-extended.png": {
+    "mtime": 1788791703.4023817,
+    "seen": 1789126777.9927516,
+    "ast_hash": "1274498f237fd160dfc7edcf33004746",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/final/spritesheet-extended.webp": {
+    "mtime": 1788791714.5538974,
+    "seen": 1789126777.9927523,
+    "ast_hash": "48b9a5d2b9b5029b4cf03cf80fc36ece",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/contact-sheet-extended.png": {
+    "mtime": 1788791758.2679493,
+    "seen": 1789126777.9927552,
+    "ast_hash": "e826add031889068d7b0ab559378fd90",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/direction-blind-pairs.png": {
+    "mtime": 1788791796.75932,
+    "seen": 1789126777.992758,
+    "ast_hash": "77b1ae1580afcd080cb9332a546b7737",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/failed/000.png": {
+    "mtime": 1788791759.2606673,
+    "seen": 1789126777.992759,
+    "ast_hash": "583aebf15eb0a2405c8f3de197d5944c",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/failed/001.png": {
+    "mtime": 1788791759.2639651,
+    "seen": 1789126777.9927604,
+    "ast_hash": "b7a7d929146264b31de320ac5bab467e",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/failed/002.png": {
+    "mtime": 1788791759.268672,
+    "seen": 1789126777.9927614,
+    "ast_hash": "cd8bb8d4bf1d98fd553883b8f961fe8b",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/failed/003.png": {
+    "mtime": 1788791759.272465,
+    "seen": 1789126777.9927626,
+    "ast_hash": "e92d75300713de547f05fd105efedb72",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/failed/004.png": {
+    "mtime": 1788791759.2766523,
+    "seen": 1789126777.9927638,
+    "ast_hash": "3de8eba29b22aac1919a6be2fe9222a5",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/failed/005.png": {
+    "mtime": 1788791759.281383,
+    "seen": 1789126777.9927647,
+    "ast_hash": "b1b5899a5294bd3b60930011b10a7e47",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/failed/006.png": {
+    "mtime": 1788791759.2860208,
+    "seen": 1789126777.9927657,
+    "ast_hash": "a19f43d283431e0c84ee84c41ad9ae66",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/failed/007.png": {
+    "mtime": 1788791759.2905335,
+    "seen": 1789126777.9927666,
+    "ast_hash": "8b3430b5bd139c372caeb992d6fa91f9",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/idle/000.png": {
+    "mtime": 1788791759.1128392,
+    "seen": 1789126777.9927678,
+    "ast_hash": "d6955debbe779bc92579bf2b8a1977cb",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/idle/001.png": {
+    "mtime": 1788791759.1173897,
+    "seen": 1789126777.992769,
+    "ast_hash": "6ece8a554c26223f6c5b5858bc734268",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/idle/002.png": {
+    "mtime": 1788791759.121774,
+    "seen": 1789126777.9927702,
+    "ast_hash": "6ae10fbe8cf6f96741de86d3e14167fe",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/idle/003.png": {
+    "mtime": 1788791759.12661,
+    "seen": 1789126777.9927716,
+    "ast_hash": "9ed0d56524e8ccc85033f2302072d6d0",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/idle/004.png": {
+    "mtime": 1788791759.130202,
+    "seen": 1789126777.9927726,
+    "ast_hash": "c7c6f5697c50c0317687297384c474cd",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/idle/005.png": {
+    "mtime": 1788791759.1346242,
+    "seen": 1789126777.9927735,
+    "ast_hash": "ce908c7f758fc061a929695c931f18f6",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/jumping/000.png": {
+    "mtime": 1788791759.236008,
+    "seen": 1789126777.9927747,
+    "ast_hash": "70702e4e4d7e0a537280ef9c3771a9a2",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/jumping/001.png": {
+    "mtime": 1788791759.241832,
+    "seen": 1789126777.9927757,
+    "ast_hash": "4c5db3267bafe62deafbb649ec20a3e2",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/jumping/002.png": {
+    "mtime": 1788791759.247222,
+    "seen": 1789126777.9927766,
+    "ast_hash": "e74f09bd410ceef9c3c600add7157a99",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/jumping/003.png": {
+    "mtime": 1788791759.251719,
+    "seen": 1789126777.9927778,
+    "ast_hash": "7bb06a94d3e4a7c4f796c6872c9b4f2d",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/jumping/004.png": {
+    "mtime": 1788791759.254894,
+    "seen": 1789126777.9927788,
+    "ast_hash": "e1bdc370b7641e22fa47bbb3e35520cb",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/review/000.png": {
+    "mtime": 1788791759.3498535,
+    "seen": 1789126777.9927797,
+    "ast_hash": "7de9792b551d68134652d871f1369a1c",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/review/001.png": {
+    "mtime": 1788791759.3548806,
+    "seen": 1789126777.9927812,
+    "ast_hash": "8b9693993e894b4693d3589406431a96",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/review/002.png": {
+    "mtime": 1788791759.3580859,
+    "seen": 1789126777.9927826,
+    "ast_hash": "21676863c84eb6ce7452f02e9eb27e06",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/review/003.png": {
+    "mtime": 1788791759.362717,
+    "seen": 1789126777.9927835,
+    "ast_hash": "39f249528dbba65637e666b5d787bab2",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/review/004.png": {
+    "mtime": 1788791759.366735,
+    "seen": 1789126777.9927847,
+    "ast_hash": "b57a61b53d7f2c127a1ad0674289a41c",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/review/005.png": {
+    "mtime": 1788791759.3706913,
+    "seen": 1789126777.992786,
+    "ast_hash": "df23724d12c7a5323b80dbc7f37cfa41",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-left/000.png": {
+    "mtime": 1788791759.181381,
+    "seen": 1789126777.9927871,
+    "ast_hash": "5ccce6d2c2e978f0138665c33f2acb0f",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-left/001.png": {
+    "mtime": 1788791759.185818,
+    "seen": 1789126777.9927886,
+    "ast_hash": "148e68ded803503ab6f0b0a00b6f5351",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-left/002.png": {
+    "mtime": 1788791759.1912234,
+    "seen": 1789126777.9927895,
+    "ast_hash": "8c3f8e1a60e8343a355a3db6909623ca",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-left/003.png": {
+    "mtime": 1788791759.195746,
+    "seen": 1789126777.9927907,
+    "ast_hash": "26f7bfaf4b12fdfeba4eca9954dbb7d2",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-left/004.png": {
+    "mtime": 1788791759.2014854,
+    "seen": 1789126777.992792,
+    "ast_hash": "c7554a5e8178eb0ea085f3317c2130e2",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-left/005.png": {
+    "mtime": 1788791759.206203,
+    "seen": 1789126777.9927928,
+    "ast_hash": "e196874c79b3d21ebec5a20388adffe7",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-left/006.png": {
+    "mtime": 1788791759.21096,
+    "seen": 1789126777.992794,
+    "ast_hash": "dab97c5ee33e40b12a6152e243900cd3",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-left/007.png": {
+    "mtime": 1788791759.2151065,
+    "seen": 1789126777.9927952,
+    "ast_hash": "87fd36ddf1bbe9d3dcb4974a550e7581",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-right/000.png": {
+    "mtime": 1788791759.140623,
+    "seen": 1789126777.9927964,
+    "ast_hash": "906022c2b032ff4e547082177cbbfd35",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-right/001.png": {
+    "mtime": 1788791759.146101,
+    "seen": 1789126777.9927974,
+    "ast_hash": "a7d8adaf61decf8588a036fba3797d46",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-right/002.png": {
+    "mtime": 1788791759.1507428,
+    "seen": 1789126777.992799,
+    "ast_hash": "72fb5cd987ceab3b2f68c7dd39396af9",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-right/003.png": {
+    "mtime": 1788791759.155591,
+    "seen": 1789126777.9928,
+    "ast_hash": "0c05de35e862ab65244b123a8d8760df",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-right/004.png": {
+    "mtime": 1788791759.16148,
+    "seen": 1789126777.9928012,
+    "ast_hash": "237d9b53fbd322e79a8dacc44bfe7793",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-right/005.png": {
+    "mtime": 1788791759.166085,
+    "seen": 1789126777.9928026,
+    "ast_hash": "89c60fa12720f30789fdbe265fedc3a1",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-right/006.png": {
+    "mtime": 1788791759.170425,
+    "seen": 1789126777.9928038,
+    "ast_hash": "c4aa302c985e7bea05f88dc44780422d",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running-right/007.png": {
+    "mtime": 1788791759.1763937,
+    "seen": 1789126777.992805,
+    "ast_hash": "ba0b17608c7e612632c8c33ca7176169",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running/000.png": {
+    "mtime": 1788791759.3220153,
+    "seen": 1789126777.9928062,
+    "ast_hash": "41b12c46b412a22202cfac3d69e32172",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running/001.png": {
+    "mtime": 1788791759.3260975,
+    "seen": 1789126777.9928071,
+    "ast_hash": "14d89ad410d6b821f7f5a7a8aea80eba",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running/002.png": {
+    "mtime": 1788791759.3315284,
+    "seen": 1789126777.992808,
+    "ast_hash": "7adc5d344ff7b849488171fe90d4f120",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running/003.png": {
+    "mtime": 1788791759.3359003,
+    "seen": 1789126777.9928095,
+    "ast_hash": "856550b87796eb24f328c625cb9a5721",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running/004.png": {
+    "mtime": 1788791759.3405733,
+    "seen": 1789126777.9928107,
+    "ast_hash": "e1949d6b8b588359d28794fc7d3cdce6",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/running/005.png": {
+    "mtime": 1788791759.3460789,
+    "seen": 1789126777.9928117,
+    "ast_hash": "7624ebf1aa56a0c9d8cad0d86518f034",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/waiting/000.png": {
+    "mtime": 1788791759.295422,
+    "seen": 1789126777.992813,
+    "ast_hash": "801b39d41816191dc172b46de6da2dce",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/waiting/001.png": {
+    "mtime": 1788791759.2998874,
+    "seen": 1789126777.992814,
+    "ast_hash": "b01ade004b678679928f07f54e1874c0",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/waiting/002.png": {
+    "mtime": 1788791759.3043408,
+    "seen": 1789126777.9928157,
+    "ast_hash": "8f359d5ba0281f966de0624526b529d1",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/waiting/003.png": {
+    "mtime": 1788791759.3090034,
+    "seen": 1789126777.992817,
+    "ast_hash": "ab440246348870cee320fad0b9dbdfae",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/waiting/004.png": {
+    "mtime": 1788791759.3135383,
+    "seen": 1789126777.9928179,
+    "ast_hash": "9b8bb7f2343f6c6c48deb3c4717ea43c",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/waiting/005.png": {
+    "mtime": 1788791759.3177876,
+    "seen": 1789126777.9928188,
+    "ast_hash": "d7e3cb204bbf2da8ae5dc552b497917d",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/waving/000.png": {
+    "mtime": 1788791759.2189827,
+    "seen": 1789126777.99282,
+    "ast_hash": "5baea3a9aea08ece9a03f9f705b2f049",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/waving/001.png": {
+    "mtime": 1788791759.2224658,
+    "seen": 1789126777.992821,
+    "ast_hash": "9e7c2397b0c10df070553105f94a6a7c",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/waving/002.png": {
+    "mtime": 1788791759.2271638,
+    "seen": 1789126777.992822,
+    "ast_hash": "7cc420e2f492d855862c77d40b8b7e52",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/frames/waving/003.png": {
+    "mtime": 1788791759.2315052,
+    "seen": 1789126777.9928234,
+    "ast_hash": "32ee5c8aaaef5c3e0d6991a2218a3def",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/look-directions.png": {
+    "mtime": 1788791758.576197,
+    "seen": 1789126777.9928243,
+    "ast_hash": "f3e3e4d660dfe5c6d1405ce24d5e0625",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/previews/failed.gif": {
+    "mtime": 1788791759.838927,
+    "seen": 1789126777.9928253,
+    "ast_hash": "b86ccb14851b985d24d00e92b52de076",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/previews/idle.gif": {
+    "mtime": 1788791759.5523996,
+    "seen": 1789126777.9928267,
+    "ast_hash": "31eafe266bd5157670370ad6292d9ecf",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/previews/jumping.gif": {
+    "mtime": 1788791759.7643058,
+    "seen": 1789126777.9928298,
+    "ast_hash": "36f96fc5cc35a85465428bb278d80d29",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/previews/review.gif": {
+    "mtime": 1788791760.0083032,
+    "seen": 1789126777.9928308,
+    "ast_hash": "dee3890f8c40544f2ce18fe86934398a",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/previews/running-left.gif": {
+    "mtime": 1788791759.6848955,
+    "seen": 1789126777.992832,
+    "ast_hash": "0449c5f18f032b530ba474d09f3f2f69",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/previews/running-right.gif": {
+    "mtime": 1788791759.6229553,
+    "seen": 1789126777.9928331,
+    "ast_hash": "215cf55859a3a6b1ba1ca8a37533f23c",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/previews/running.gif": {
+    "mtime": 1788791759.9503057,
+    "seen": 1789126777.9928339,
+    "ast_hash": "690f003981d6f49bf83d58a8f2edd493",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/previews/waiting.gif": {
+    "mtime": 1788791759.8945339,
+    "seen": 1789126777.992835,
+    "ast_hash": "bfaadcd49d8eca19ad6b9bc240504f64",
+    "semantic_hash": ""
+  },
+  "hatch-runs/itachi-v2/qa/previews/waving.gif": {
+    "mtime": 1788791759.7223725,
+    "seen": 1789126777.992836,
+    "ast_hash": "4f0b3afb5135273a936a55c5519f8076",
     "semantic_hash": ""
   }
 }

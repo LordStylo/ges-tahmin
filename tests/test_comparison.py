@@ -4,7 +4,7 @@ import unittest
 from dataclasses import asdict
 from datetime import datetime
 
-from ges_forecast.app import _comparison_view
+from ges_forecast.app import _acceptance_view, _comparison_view, _layout
 from ges_forecast.comparison import TEST_SITES, calculate_metrics
 from ges_forecast.domain import WeatherHour
 from ges_forecast.model import ForecastEngine
@@ -43,4 +43,18 @@ class TestSiteComparisonTests(unittest.TestCase):
         self.assertIn("DC/AC", page)
         self.assertIn("Spesifik üretim", page)
         self.assertIn("Kırpma kaybının aylara dağılımı", page)
-        self.assertIn("Aynı gün için üretim eğrileri", page)
+        self.assertIn("Aynı gün için saatlik üretim eğrileri", page)
+        self.assertIn("Excel indir", page)
+        self.assertIn("Günlük toplam", page)
+        self.assertIn("Net AC tepe", page)
+        self.assertIn("Önce kW", page)
+
+        acceptance = _acceptance_view(records)
+        self.assertIn("Ek A.1 · saha bazlı kabul testleri", acceptance)
+        self.assertIn("Gerçekleşen üretim karşılaştırması", acceptance)
+        self.assertIn("Kış dönemi bu çalışmada yok", acceptance)
+
+    def test_application_brand_links_to_home(self) -> None:
+        page = _layout("Test", "<p>İçerik</p>")
+        self.assertIn("aria-label='Ana sayfaya dön'", page)
+        self.assertIn("Kabul testleri", page)

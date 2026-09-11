@@ -4,12 +4,12 @@
   "2": "What You Must Do When Invoked",
   "3": "SiteConfig",
   "4": "Repository",
-  "5": "OpenMeteoClient",
+  "5": "ValidationError",
   "6": "create_app",
   "7": "ForecastEngineAcceptanceTests",
   "8": "graphify reference: extra exports and benchmark",
   "9": "GES Saatlik Üretim Tahmin Motoru",
-  "10": "ValidationError",
+  "10": "LossFactors",
   "11": "graphify reference: query, path, explain",
   "12": "graphify reference: add a URL and watch a folder",
   "13": "graphify reference: commit hook and native CLAUDE.md integration",
@@ -19,5 +19,7 @@
   "17": "PDF gereksinim izlenebilirliği",
   "18": "extraction-spec.md",
   "19": "ges-uretim-tahmin-motoru",
-  "20": "tests/__init__.py"
+  "20": "tests/__init__.py",
+  "21": "Staj raporu için Proje 2 brifi: GES Saatlik Üretim Tahmin Motoru",
+  "22": "build_comparison_workbook.mjs"
 }

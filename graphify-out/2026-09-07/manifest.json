@@ -1,8 +1,8 @@
 {
   ".codex/hooks.json": {
-    "mtime": 1788765719.2333572,
-    "seen": 1788766852.8355608,
-    "ast_hash": "5ebef3dd159986e465ab65e4014107ec",
+    "mtime": 1788780378.2974224,
+    "seen": 1788780710.3612454,
+    "ast_hash": "606b69c9bf51f673e3cdd0aada22bd55",
     "semantic_hash": ""
   },
   "config/sites.example.json": {
@@ -36,9 +36,9 @@
     "semantic_hash": ""
   },
   "src/ges_forecast/app.py": {
-    "mtime": 1788768459.0193481,
-    "seen": 1788768587.9180763,
-    "ast_hash": "d3cdf180b542ed027e9822e670666747",
+    "mtime": 1788780589.7752163,
+    "seen": 1788780710.3612626,
+    "ast_hash": "f519b970b5221898a05b23075ec4b763",
     "semantic_hash": ""
   },
   "src/ges_forecast/domain.py": {
@@ -150,15 +150,15 @@
     "semantic_hash": ""
   },
   "README.md": {
-    "mtime": 1788767393.2235823,
-    "seen": 1788767990.5940704,
-    "ast_hash": "c21114129f325657fc69e935580797e1",
+    "mtime": 1788769499.0054212,
+    "seen": 1788769606.2767992,
+    "ast_hash": "3b3f9fc51d779381e6ec2df6d22b86ae",
     "semantic_hash": ""
   },
   "docs/requirements.md": {
-    "mtime": 1788768576.5572805,
-    "seen": 1788768587.9180763,
-    "ast_hash": "a5259c29b515a8e4c9016c85431d8806",
+    "mtime": 1788769499.0054212,
+    "seen": 1788769606.2767992,
+    "ast_hash": "9e29f6e55e2f73850367a4772be85aae",
     "semantic_hash": ""
   },
   "Stajyer_Projesi_Uretim_Tahmin_Motoru.pdf": {
@@ -171,6 +171,66 @@
     "mtime": 1788767085.6856964,
     "seen": 1788767315.2983966,
     "ast_hash": "f12f1bedd9906563222b12d54dd0112a",
+    "semantic_hash": ""
+  },
+  "src/ges_forecast/comparison.py": {
+    "mtime": 1788769252.882259,
+    "seen": 1788769606.2767992,
+    "ast_hash": "926b8798449ce08566f78ff879b3ec0d",
+    "semantic_hash": ""
+  },
+  "tests/test_comparison.py": {
+    "mtime": 1788780589.7761176,
+    "seen": 1788780710.3612733,
+    "ast_hash": "9d95d3c0fe5705e4a9f020b338050a20",
+    "semantic_hash": ""
+  },
+  "docs/staj-raporu-proje-2-brif.md": {
+    "mtime": 1788773395.3976214,
+    "seen": 1788779244.816097,
+    "ast_hash": "5b9e1cc4f817e21cc70280590b7acc96",
+    "semantic_hash": ""
+  },
+  "tools/build_comparison_workbook.mjs": {
+    "mtime": 1788780676.062448,
+    "seen": 1788780710.361279,
+    "ast_hash": "53e942b0ad7e814dfb2f5f262146b26f",
+    "semantic_hash": ""
+  },
+  "outputs/uc-saha-karsilastirma-20260907/Ger\u00e7ekle\u015fen_07.09.png": {
+    "mtime": 1788780695.0052395,
+    "seen": 1788780710.3613002,
+    "ast_hash": "d6d2f8d2b43d6b03319f157a89292080",
+    "semantic_hash": ""
+  },
+  "outputs/uc-saha-karsilastirma-20260907/Kar\u015f\u0131la\u015ft\u0131rma_\u00d6zeti.png": {
+    "mtime": 1788780693.4088316,
+    "seen": 1788780710.361302,
+    "ast_hash": "4bda2eee64d4c78ff57af6cf787eac1c",
+    "semantic_hash": ""
+  },
+  "outputs/uc-saha-karsilastirma-20260907/Saatlik_Kar\u015f\u0131la\u015ft\u0131rma.png": {
+    "mtime": 1788780694.760764,
+    "seen": 1788780710.3613038,
+    "ast_hash": "2d9e3484c573d85e2ba9e497229055c1",
+    "semantic_hash": ""
+  },
+  "outputs/uc-saha-karsilastirma-20260907/Saha_1.png": {
+    "mtime": 1788780696.6148872,
+    "seen": 1788780710.3613048,
+    "ast_hash": "dfaf91f332feb30a7d8fb0e3df8ac9cd",
+    "semantic_hash": ""
+  },
+  "outputs/uc-saha-karsilastirma-20260907/Saha_2.png": {
+    "mtime": 1788780698.1812725,
+    "seen": 1788780710.361306,
+    "ast_hash": "d80176d9143660825fc3872642df6508",
+    "semantic_hash": ""
+  },
+  "outputs/uc-saha-karsilastirma-20260907/Saha_3.png": {
+    "mtime": 1788780699.7637918,
+    "seen": 1788780710.3613067,
+    "ast_hash": "ecb4afdcd9eca0430a899483a449691c",
     "semantic_hash": ""
   }
 }
